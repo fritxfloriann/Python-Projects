@@ -10,4 +10,8 @@ The source materials for these projects are located in my pinned repository, `Ba
 
 ## Will there be projects with a different programming language?
 
-Yes! In the future, I will also include projects with other programming languages like C++, C, CSS, and etc. But there is an asterisk. Projects with a different coding language much contain a percentage of usage using Python. This is to make sure the repository still has Python elements.
+Yes! In the future, I will also include projects with other programming languages like C++, C, CSS, etc. But there is an asterisk. Projects with a different coding language may contain a percentage of usage of Python. This is to make sure the repository still has Python elements.
+
+## Why is there no comments in the project code?
+
+The lack of comments in the code of the projects in this repository is primarily to strip off the unnecessary clutter for projects that are finished. The comments will remain in the `Basics in Python` folder, and comments would be removed in each code on this repository. Mainly to reduce the lines of code and to remove educational comments to reinforce the finishness of the project.
