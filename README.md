@@ -14,4 +14,12 @@ Yes! In the future, I will also include projects with other programming language
 
 ## Why is there no comments in the project code?
 
-The lack of comments in the code of the projects in this repository is primarily to strip off the unnecessary clutter for projects that are finished. The comments will remain in the `Basics in Python` folder, and comments would be removed in each code on this repository. Mainly to reduce the lines of code and to remove educational comments to reinforce the finishness of the project.
+The lack of comments in the code of the projects in this repository is primarily to strip off the unnecessary clutter for projects that are finished. The comments will remain in the `Basics in Python` folder, and comments will be removed from the code in this repository. Mainly to reduce the lines of code and to remove educational comments to reinforce the finished state of the project.
+
+# Improvement Notice
+
+In this repository, the existing projects I made will be refined, given functions, interactive elements, refactoring, and innovation in some aspects of the projects. The purpose of the improvement notice is to provide information about the new changes in the projects in the repository. Code may change over time. Functionality, user input, and the quality of code can also change. This is how projects in this repository can be changed into something better.
+
+## Will the old code containing comments and the original state remain?
+
+In this repository, comments are removed to strip down unnecessary lines of code. The original state of each project can be opened in my other repository, `Basics In Python`. The old code will still remain in the other repository. But I don't recommend using any of the original code in the `Basics In Python` repository for serious applications. It is mainly for educational purposes only and should only be run for testing purposes.
