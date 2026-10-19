@@ -5,11 +5,6 @@ it can be used to determine if the user meets the requirements for a certain act
 
 This project is for educational purposes only. It is only used at a basic level, and it should never be integrated into more sophisticated systems.
 
-## Legal Disclaimer
-
-The jurisdictions, laws, regulations, and enforcement differ across territories, federal law, and local laws. This project uses Australia's laws
-to demonstrate the age verification system that was built and shown. Responsible use of the program is expected.
-
 ## Instructions
 
 age verification.py requires Python 3.10 or newer to run alongside a basic terminal or command prompt. It can be `cmd.exe` on Windows and your terminal
@@ -30,3 +25,8 @@ Run the program:
 python main.py
 
 Depending on your system, you may need to use python3 main.py.
+
+## Legal Disclaimer
+
+The jurisdictions, laws, regulations, and enforcement differ across territories, federal law, and local laws. This project uses Australia's laws
+to demonstrate the age verification system that was built and shown. Responsible use of the program is expected.
