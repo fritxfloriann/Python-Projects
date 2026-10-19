@@ -61,11 +61,10 @@ def get_age():
             print_dialogue("Enter a whole-number age using digits or words, from 0 to 100.")
 
 
-print_dialogue("Welcome to Australian Age Verification System.")
+print_dialogue("Welcome to Australian Election Age Verification System.")
 age = get_age()
 print()
 
-print_dialogue("Australian Election Age Verification")
 if age >= 18:
     print_dialogue(
         "You are eligible to vote.",
@@ -79,7 +78,14 @@ else:
 
 print()
 
-print_dialogue("Australian Legal Drinking Age Verification")
+# The input function takes the user's age as input, and the program checks if the age of the user is 18 or older.
+
+# Age Verification using Python in Legal Drinking Age in Australia
+
+print_dialogue("Welcome to Australian Legal Drinking Age Verification System.")
+age = get_age()
+print()
+
 if age >= 18:
     print_dialogue(
         "You are eligible to drink alcohol, but drink responsibly.",
@@ -94,7 +100,14 @@ else:
 
 print()
 
-print_dialogue("Australian Driver's Licence Age Verification")
+# The input function takes the user's age as input, and the program checks if the age of the user is 18 or older.
+
+# Age Verification using Python in acquiring a driver's license in Australia
+
+print_dialogue("Welcome to Australian Driver's Licence Age Verification System.")
+age = get_age()
+print()
+
 if age >= 18:
     print_dialogue(
         "You are eligible to apply for a driver's licence.",
