@@ -40,3 +40,53 @@ You can check your Python version with the following command:
 
 The file name for PPPC is called `interactive_pc_price_calculator.py`. Remember where you downloaded it. It should be in your `Recent` or `Downloads` directory.
 
+## Instructions & Usage
+
+In this section, you will learn how to use PPPC to calculate the total cost of your PC build. The code in the file totals up the cost of the entered prices and gives you the results upon typing all of the prices of eight components listed. Whenever you want to calculate new prices or total up the price of a new build, you can always use the program to total up the cost.
+
+**First, launch the `.py` file.**
+
+Once you have located the file `interactive_pc_price_calculator.py`, you should open it in your terminal or command prompt to run the program.
+
+It will launch your terminal or command prompt and initialize its introduction, interface, and the starting price of the CPU.
+
+**Second, enter the prices of each component.**
+
+In the following questions given by the program, you must give a price for the given component in the prompt.
+
+Here is an example to get a clue.
+
+`Welcome to PC Price Calculator! Enter wisely to get the most accurate answer.`
+
+`Enter each component's price in United States Dollars (USD).`
+
+`CPU price`
+
+`Enter Price: $299.`
+
+*The $299 was the price I entered to demonstrate the price of a CPU.*
+
+Click Enter and continue adding prices to each component. Once you have answered the prices of all eight components, the program automatically ends the prompts and starts calculating the total costs.
+
+**Lastly, it will print out a formatted text with the costs and the total prices.**
+
+Once you are done entering the prices of all eight components, hitting Enter will result in the program calculating the total costs of the build.
+
+It should look something like this:
+
+PC Build Price Breakdown
+------------------------------
+CPU          $ 299.99
+GPU          $ 599.99
+Motherboard  $ 179.99
+RAM          $  89.99
+Storage (SSD or HDD) $  99.99
+Case         $  89.99
+Cooling      $  49.99
+PSU          $  99.99
+------------------------------
+Total        $1499.92
+
+*The prices shown in the example are just a hypothetical build.*
+
+There you have it! You have the total price of the entire PC Build. And of course, this is not accounting for other important parts like thermal paste, accessories, etc. But for a basic program for calculating the costs of a PC Build, this is more than enough.
