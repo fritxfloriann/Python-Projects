@@ -1,5 +1,5 @@
 
-# This is the first version of PPPC. I don't recommend this to be r
+# This is the first version of PPPC. I don't recommend this to be executed as this is deprecated.
 
 # Let's make a PC part calculator by inputting the existing prices of each component to calculate the cost.
 
