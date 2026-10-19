@@ -58,13 +58,17 @@ Here is an example to get a clue.
 
 `Welcome to PC Price Calculator! Enter wisely to get the most accurate answer.`
 
-`Enter each component's price in United States Dollars (USD).`
+`Enter each component's model and price in United States Dollars (USD).`
+
+`CPU model`
+
+`Enter model: AMD Ryzen 5 7500.`
 
 `CPU price`
 
 `Enter Price: $299.`
 
-*The $299 was the price I entered to demonstrate the price of a CPU.*
+*The entries are for demonstration only. It is not included in the answers or entries in the actual program.*
 
 Click Enter and continue adding prices to each component. Once you have answered the prices of all eight components, the program automatically ends the prompts and starts calculating the total costs.
 
@@ -74,22 +78,54 @@ Once you are done entering the prices of all eight components, hitting Enter wil
 
 It should look something like this:
 
-```PC Build Price Breakdown```
+---
 
-------------------------------
+PC Build Price Breakdown
 
-```CPU                   $ 299.00```
-```GPU                   $ 599.00```
-```Motherboard           $ 199.00```
-```RAM                   $ 299.00```
-```Storage               $ 189.00```
-```Case                  $ 119.00```
-```Cooling               $ 169.00```
-```PSU                   $ 149.00```
+Component
+  Model
+  Price
 
-------------------------------
-```Total                 $2022.00```
+CPU
+Model
+$199.00
+
+GPU
+Model
+$150.00
+
+Motherboard
+Model
+$ 99.00
+
+RAM
+Model
+$ 99.00
+
+Storage
+Model
+$199.00
+
+Case
+Model
+$299.00
+
+Cooling
+Model
+$ 55.00
+PSU
+Model
+$ 23.00
+
+
+Total
+$1123.00
+
+
+---
 
 *The prices shown in the example are just a hypothetical build.*
 
 There you have it! You have the total price of the entire PC Build. And of course, this does not account for other important parts like thermal paste, accessories, etc. But for a basic program for calculating the costs of a PC Build, this is more than enough.
+
+The latest commit (October 19, 2026) introduced a component model prompt, which gives the final price breakdown the exact model of what the component is.
