@@ -1,5 +1,7 @@
 
-# Let's make a PC part calculator, by inputing the existing prices of each component to calculate the cost.
+# This is the first version of PPPC. I don't recommend this to be r
+
+# Let's make a PC part calculator by inputting the existing prices of each component to calculate the cost.
 
 cpu_price = 400
 gpu_price = 700
@@ -23,7 +25,7 @@ print(f"For the total price of the entire rig, the total comes up to {total_buil
 
 # This shows how arithmetic functions can calculate variables in Python.
 
-# And now, let's do a different approach with formating and more sophisticated commands.
+# And now, let's do a different approach with formatting and more sophisticated commands.
 
 parts = {
     "CPU": 400,
