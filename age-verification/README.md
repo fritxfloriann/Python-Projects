@@ -14,3 +14,19 @@ to demonstrate the age verification system that was built and shown. Responsible
 
 age verification.py requires Python 3.10 or newer to run alongside a basic terminal or command prompt. It can be `cmd.exe` on Windows and your terminal
 on Linux. You also need the important packages and requirements to run any newer Python programs.
+
+### Installation
+
+Clone this repository:
+
+`git clone https://github.com/fritxfloriann/age verification.py.git`
+
+Navigate to the project directory:
+
+`cd age-verification-program`
+
+Run the program:
+
+python main.py
+
+Depending on your system, you may need to use python3 main.py.
