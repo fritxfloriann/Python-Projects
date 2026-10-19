@@ -18,7 +18,7 @@ Clone this repository:
 
 Navigate to the project directory:
 
-`cd age-verification-program`
+`cd age verification.py`
 
 Run the program:
 
