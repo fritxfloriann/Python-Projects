@@ -28,7 +28,7 @@ The process can be straightforward and simplified.
 
 *Depending on your system, you may need to use python3 main.py.*
 
-# HOW TO INSTALL THE OTHER VERSION OF AGE VERIFICATION.PY
+# How to install the new age verification.py file
 
 There are currently two versions of this project. One is where you type your age repeatedly in every individual question, while the new, unified age verification file aims to use your entered age to answer everything with one prompt. This makes age verification dramatically simpler to use, alongside not having to enter your age every time you ask a question.
 
