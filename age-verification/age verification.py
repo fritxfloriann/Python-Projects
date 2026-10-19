@@ -1,5 +1,18 @@
+def get_age():
+    """Ask for a valid, non-negative age."""
+    while True:
+        try:
+            age = int(input("Enter your age: "))
+            if age < 0:
+                print("Age can't be negative. Please try again.")
+                continue
+            return age
+        except ValueError:
+            print("Please enter your age as a whole number.")
+
+
 print("Welcome to Australian Election Age Verification System.")
-age = int(input("Enter your age: "))
+age = get_age()
 
 if age >= 18:
     print("You are eligible to vote.")
@@ -9,7 +22,7 @@ else:
     print("You must be at least 18 years old to vote in Australia.")
 
 print("Welcome to Australian Legal Drinking Age Verification System.")
-age = int(input("Enter your age: "))
+age = get_age()
 
 if age >= 18:
     print("You are eligible to drink alcohol, but drink responsibly.")
@@ -20,7 +33,7 @@ else:
     print("Remember to always follow the legal drinking age requirements in your area.")
 
 print("Welcome to Australian Driver's Licence Age Verification System.")
-age = int(input("Enter your age: "))
+age = get_age()
 
 if age >= 18:
     print("You are eligible to apply for a driver's licence.")
@@ -35,6 +48,8 @@ else:
     print("You must be at least 16 years old to apply for a learner's permit and 18 years old to apply for a driver's licence in Australia.")
 
 print("Remember, this age verification process varies by state, territory, and country, so it's important to check the specific requirements in your area.")
+
+# Remember, laws and regulations regarding age verification may vary by country or region, so it's important to check the specific requirements in your area.
 
 # This project uses Australia's legal age requirements for voting, drinking alcohol, and acquiring a driver's licence as examples.
 
