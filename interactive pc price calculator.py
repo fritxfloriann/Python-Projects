@@ -1,44 +1,19 @@
-def get_parts_from_user():
-    """Let the user enter up to eight part names and prices."""
-    parts = {}
-    print("Welcome to PC Price Calculator! Enter wisely to get the most accurate answer.")
-
-    print(f"Enter up to {MAX_PARTS} PC parts (type 'done' to finish early)\n")
-
-    print("Suggested parts: CPU, GPU, Motherboard, RAM, Storage (SSD or HDD),")
-    
-    print("Case, Cooling, and PSU. The currency used is United States Dollar (USD).\n")
-
-    # The limitation of the quantity of the parts ensure that the program doesn't loop the questions asked.
-
-    while len(parts) < MAX_PARTS:
-        name = input(f"Part name ({len(parts) + 1}/{MAX_PARTS}): ").strip()
-        if name.lower() == "done":
-            break
-        if not name:
-            print("Part name can't be empty.\n")
-            continue
-        if name in parts:
-            print("That part has already been entered.\n")
-            continue
-
-        price = get_price()
-        parts[name] = price
-        print(f"Added {name}: ${price:.2f}\n")
-
-    if len(parts) == MAX_PARTS:
-        print(f"You've entered all {MAX_PARTS} parts.\n")
-
-    return parts
-
 import math
 
-MAX_PARTS = 8
+PARTS = ("CPU", "GPU", "Motherboard", "RAM", "Storage (SSD or HDD)", "Case", "Cooling", "PSU")
 
-def get_price():
+def get_parts_from_user():
+    """Ask for a price for each standard PC component."""
+    print("Welcome to PC Price Calculator! Enter wisely to get the most accurate answer.")
+    print("Enter each component's price in United States Dollars (USD).")
+    parts = {part: get_price(part) for part in PARTS}
+    return parts
+
+def get_price(part):
     """Keep asking until the user enters a valid, non-negative price."""
+    print(f"{part} price")
     while True:
-        raw = input("Price: $").strip()
+        raw = input("Enter Price: $").strip()
 
         try:
             price = float(raw)
