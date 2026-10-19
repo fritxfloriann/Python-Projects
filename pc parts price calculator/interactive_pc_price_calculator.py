@@ -3,66 +3,73 @@
 
 import math
 
-PARTS = ("CPU", "GPU", "Motherboard", "RAM", "Storage (SSD or HDD)", "Case", "Cooling", "PSU")
+PARTS = ("CPU", "GPU", "Motherboard", "RAM", "Storage", "Case", "Cooling", "PSU")
 
-# Interactive PC Part Calculator with input and functions.
+def get_model(part: str) -> str:
+    """Ask for a non-empty model name for a component."""
+    print(f"{part} model:")
+    while True:
+        model = input("Enter model: ").strip()
+        if model:
+            return model
+        print("Please enter a model.")
 
-def get_parts_from_user():
-    """Ask for a price for each standard PC component."""
-    print("Welcome to PC Price Calculator! Enter wisely to get the most accurate answer.")
-    print("Enter each component's price in United States Dollars (USD).")
-    parts = {part: get_price(part) for part in PARTS}
-    return parts
 
-def get_price(part):
+def get_price(part: str) -> float:
     """Keep asking until the user enters a valid, non-negative price."""
-    print(f"{part} price")
+    print(f"{part} price:")
     while True:
         raw = input("Enter Price: $").strip()
 
         try:
             price = float(raw)
-
-            if not math.isfinite(price):
-                print("Please enter a finite number.")
-                continue
-
-            if price < 0:
-                print("Price can't be negative.")
-                continue
-
-            return price
-
         except ValueError:
             print("Please enter a valid number.")
+            continue
 
-# Below, is the code where it adds up the cost for the part prices.
+        if not math.isfinite(price):
+            print("Please enter a finite number.")
+        elif price < 0:
+            print("Price can't be negative.")
+        else:
+            return price
 
-def calculate_total(parts):
+
+def get_parts_from_user() -> dict[str, tuple[str, float]]:
+    """Ask for a model and price for each standard PC component."""
+    print("Welcome to PC Price Calculator! Enter wisely to get the most accurate answer.")
+    print("Enter each component's model and price in United States Dollars (USD).")
+    return {
+        part: (get_model(part), get_price(part))
+        for part in PARTS
+    }
+
+
+def calculate_total(parts: dict[str, tuple[str, float]]) -> float:
     """Return the sum of all part prices."""
-    return sum(parts.values())
+    return sum(price for _, price in parts.values())
 
-# The next code takes the dictionary made by the user to be formatted into a readable input.
 
-def print_breakdown(parts):
-    """Print a formatted price breakdown and total."""
+def print_breakdown(parts: dict[str, tuple[str, float]]) -> None:
+    """Print a formatted model and price breakdown with the total."""
+    label_width = max(len("Total"), *(len(part) for part in parts))
+    model_width = max(len("Model"), *(len(model) for model, _ in parts.values()))
+    price_width = max(len("Price"), *(len(f"${price:.2f}") for _, price in parts.values()))
+    separator_width = label_width + model_width + price_width + 4
+
     print("\nPC Build Price Breakdown")
-    print("-" * 30)
-    for part, price in parts.items():
-        print(f"{part:<12} ${price:>7.2f}")
-    print("-" * 30)
-    print(f"{'Total':<12} ${calculate_total(parts):>7.2f}")
+    print("-" * separator_width)
+    print(f"{'Component':<{label_width}}  {'Model':<{model_width}}  {'Price':>{price_width}}")
+    for part, (model, price) in parts.items():
+        print(f"{part:<{label_width}}  {model:<{model_width}}  ${price:>{price_width - 1}.2f}")
+    print("-" * separator_width)
+    print(f"{'Total':<{label_width}}  {'':<{model_width}}  ${calculate_total(parts):>{price_width - 1}.2f}")
 
-# The code below makes the program coordinates the code together.
 
-def main():
+def main() -> None:
     parts = get_parts_from_user()
-    if parts:
-        print_breakdown(parts)
-    else:
-        print("No parts entered.")
+    print_breakdown(parts)
 
-# These lines of code helps the program run.
 
 if __name__ == "__main__":
     main()
