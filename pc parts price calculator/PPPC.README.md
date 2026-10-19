@@ -8,4 +8,35 @@ Caution: Enter prices wisely and accurately. One mistake can give the wrong answ
 
 To run this program, you need Python 3.10 or newer, alongside a basic terminal or a command prompt. If you want to modify the PPPC code, have a code editor to tinker with PPPC.
 
-Reminder: The program uses Python's built-in libraries and the math module. No needto install other dependencies or other components.
+Reminder: The program uses Python's built-in libraries and the math module. No need to install other dependencies or other components.
+
+**First, download the file.**
+
+Clone the repository using Git:
+
+`git clone https://github.com/fritxfloriann/pc_parts_price_calculator.git`
+
+Alternatively, download the repository as a ZIP archive and extract it.
+
+**Second, open the project directory.**
+
+Enter the following command:
+
+`cd pc-parts-price-calculator`
+
+**More importantly, check your Python version.**
+
+You can check your Python version with the following command:
+
+`python --version`
+
+*If you are on systems that use Python 3, type the following command:*
+
+`python3 --version`
+
+*Remember, PPPC requires Python 3.10 or newer to run.*
+
+**Lastly, locate the file.**
+
+The file name for PPPC is called `interactive_pc_price_calculator.py`. Remember where you downloaded it. It should be in your `Recent` or `Downloads` directory.
+
