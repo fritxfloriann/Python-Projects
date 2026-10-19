@@ -12,26 +12,28 @@ on Linux. You also need the important packages and requirements to run any newer
 
 **Installation**
 
-Clone this repository:
+The process can be straightforward and simplified.
+
+**Clone this repository**:
 
 `git clone https://github.com/fritxfloriann/age verification.py.git`
 
-Navigate to the project directory:
+**Navigate to the project directory**:
 
 `cd age verification.py`
 
-Run the program:
+**Run the following program**
 
-python main.py
+`python main.py`
 
 *Depending on your system, you may need to use python3 main.py.*
 
 # HOW TO INSTALL THE OTHER VERSION OF AGE VERIFICATION.PY
 
-There are currently two versions of this project. One is where you type your age repeatedly in every individual questions, while the new, unified age verification file aims to use your entered age to answer everything with one prompt. This makes age verification dramatically simpler to use, alongside not having to enter your age every time you ask a question.
+There are currently two versions of this project. One is where you type your age repeatedly in every individual question, while the new, unified age verification file aims to use your entered age to answer everything with one prompt. This makes age verification dramatically simpler to use, alongside not having to enter your age every time you ask a question.
 
 ## Legal Disclaimer
 
 The jurisdictions, laws, regulations, and enforcement differ across territories, federal law, and local laws. This project uses Australia's laws
 to demonstrate the age verification system that was built and shown. Responsible use of the program is expected. This project is solely for educational purposes
-and to build the fundamentals of the inputs, functions, and utilizing project into widespread ideas.
+and to build the fundamentals of the inputs, functions, and utilization of the project for widespread ideas.
