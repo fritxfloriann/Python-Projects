@@ -1,1 +1,5 @@
 # PC Parts Price Calculator
+
+A price calculator program for calculating the price of each PC components with your price entry. This program is lightweight and should only be for basic calculations for prices of PC parts. It is interactive and can calculate the total cost of the prices you have entered in the calculations. This program is for tech enthusiasts, PC builders, and those who need help with calculating the costs of their PC build.
+
+Caution: Enter prices wisely and accurately. One mistake can give the wrong answer, wrong price, and may lead to loss of progress with your entries. If you think you made a mistake, you can restart the program and try again. Future commits will provide fail-safes, more error handling, and a feature to reset your work.
