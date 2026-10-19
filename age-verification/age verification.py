@@ -14,11 +14,6 @@ TENS_NUMBER_WORDS = {
 }
 
 
-def print_dialogue(*messages):
-    """Print dialogue lines with a blank line between them."""
-    print("\n\n".join(messages))
-
-
 def parse_number_words(text):
     """Convert standard English number words from zero to one hundred."""
     words = text.lower().replace("-", " ").split()
@@ -54,82 +49,59 @@ def get_age():
             except ValueError:
                 age = parse_number_words(raw_age)
             if not 0 <= age <= 100:
-                print_dialogue("Age must be between 0 and 100. Please try again.")
+                print("Age must be between 0 and 100. Please try again.")
                 continue
             return age
         except ValueError:
-            print_dialogue("Enter a whole-number age using digits or words, from 0 to 100.")
+            print("Enter a whole-number age using digits or words, from 0 to 100.")
 
 
-print_dialogue("Welcome to Australian Election Age Verification System.")
+print("Welcome to Australian Election Age Verification System.")
 age = get_age()
-print()
 
 if age >= 18:
-    print_dialogue(
-        "You are eligible to vote.",
-        "Remember to register to vote and participate in the democratic process.",
-    )
+    print("You are eligible to vote.")
+    print("Remember to register to vote and participate in the democratic process.")
 else:
-    print_dialogue(
-        "You are not eligible to vote.",
-        "You must be at least 18 years old to vote in Australia.",
-    )
+    print("You are not eligible to vote.")
+    print("You must be at least 18 years old to vote in Australia.")
 
-print()
 
 # The input function takes the user's age as input, and the program checks if the age of the user is 18 or older.
 
 # Age Verification using Python in Legal Drinking Age in Australia
 
-print_dialogue("Welcome to Australian Legal Drinking Age Verification System.")
+print("Welcome to Australian Legal Drinking Age Verification System.")
 age = get_age()
-print()
 
 if age >= 18:
-    print_dialogue(
-        "You are eligible to drink alcohol, but drink responsibly.",
-        "Remember to always follow the legal drinking age requirements in your area.",
-    )
+    print("You are eligible to drink alcohol, but drink responsibly.")
+    print("Remember to always follow the legal drinking age requirements in your area.")
 
 else: 
-    print_dialogue(
-        "You are ineligible to drink alcohol. You must be at least 18 years old.",
-        "Remember to always follow the legal drinking age requirements in your area.",
-    )
-
-print()
+    print("You are ineligible to drink alcohol. You must be at least 18 years old.")
+    print("Remember to always follow the legal drinking age requirements in your area.")
 
 # The input function takes the user's age as input, and the program checks if the age of the user is 18 or older.
 
 # Age Verification using Python in acquiring a driver's license in Australia
 
-print_dialogue("Welcome to Australian Driver's Licence Age Verification System.")
+print("Welcome to Australian Driver's Licence Age Verification System.")
 age = get_age()
-print()
 
 if age >= 18:
-    print_dialogue(
-        "You are eligible to apply for a driver's licence.",
-        "Remember to always follow the legal driving age requirements in your area.",
-    )
+    print("You are eligible to apply for a driver's licence.")
+    print("Remember to always follow the legal driving age requirements in your area.")
 
 elif age >= 16:
-    print_dialogue(
-        "You are eligible for a learner's permit.",
-        "Remember to always follow the legal learner's permit requirements in your area.",
-    )
+    print("You are eligible for a learner's permit.")
+    print("Remember to always follow the legal learner's permit requirements in your area.")
 
 else:
-    print_dialogue(
-        "You are not eligible to apply for a driver's licence or a learner's permit.",
-        "You must be at least 16 years old to apply for a learner's permit and 18 years old to apply for a driver's licence in Australia.",
-    )
+    print("You are not eligible to apply for a driver's licence or a learner's permit.")
+    print("You must be at least 16 years old to apply for a learner's permit and 18 years old to apply for a driver's licence in Australia.")
 
-print_dialogue(
-    "Remember, this age verification process varies by state, territory, and country, "
-    "so it's important to check the specific requirements in your area."
-)
+print("Remember, this age verification process varies by state, territory, and country, so it's important to check the specific requirements in your area.")
 
 # The elif statement checks if the user is at least 16 years old, allowing them to apply for a learner's permit.
 
