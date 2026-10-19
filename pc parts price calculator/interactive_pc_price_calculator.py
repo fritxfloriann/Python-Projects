@@ -1,4 +1,6 @@
 
+# Welcome to PPPC. PC Parts Price Calculator.
+
 import math
 
 PARTS = ("CPU", "GPU", "Motherboard", "RAM", "Storage (SSD or HDD)", "Case", "Cooling", "PSU")
