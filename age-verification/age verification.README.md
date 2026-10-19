@@ -1,4 +1,4 @@
-# age verification.py README
+# Age Verification
 
 This program is a simple, bare-bones version of an age verification system. Made with basic functions, inputs, and Python,
 it can be used to determine if the user meets the requirements for a certain action, qualification, or object by their age group.
