@@ -75,18 +75,21 @@ Once you are done entering the prices of all eight components, hitting Enter wil
 It should look something like this:
 
 PC Build Price Breakdown
+
 ------------------------------
-CPU          $ 299.99
-GPU          $ 599.99
-Motherboard  $ 179.99
-RAM          $  89.99
-Storage (SSD or HDD) $  99.99
-Case         $  89.99
-Cooling      $  49.99
-PSU          $  99.99
+
+CPU                   $ 299.00
+GPU                   $ 599.00
+Motherboard           $ 199.00
+RAM                   $ 299.00
+Storage               $ 189.00
+Case                  $ 119.00
+Cooling               $ 169.00
+PSU                   $ 149.00
+
 ------------------------------
-Total        $1499.92
+Total                 $2022.00
 
 *The prices shown in the example are just a hypothetical build.*
 
-There you have it! You have the total price of the entire PC Build. And of course, this is not accounting for other important parts like thermal paste, accessories, etc. But for a basic program for calculating the costs of a PC Build, this is more than enough.
+There you have it! You have the total price of the entire PC Build. And of course, this does not account for other important parts like thermal paste, accessories, etc. But for a basic program for calculating the costs of a PC Build, this is more than enough.
