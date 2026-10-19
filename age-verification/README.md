@@ -26,11 +26,29 @@ The process can be straightforward and simplified.
 
 `python main.py`
 
-*Depending on your system, you may need to use python3 main.py.*
-
 # How to install the new age verification.py file
 
 There are currently two versions of this project. One is where you type your age repeatedly in every individual question, while the new, unified age verification file aims to use your entered age to answer everything with one prompt. This makes age verification dramatically simpler to use, alongside not having to enter your age every time you ask a question.
+
+## Instructions
+
+The new age verification file, named `age verification new.py`, also requires Python 3.10 or newer and a basic terminal or command prompt to run. Important packages and dependencies should be installed first for the code to work properly.
+
+**Installation**
+
+The process is similar to the original `age verification.py` file.
+
+**Clone this repository**:
+
+`git clone https://github.com/fritxfloriann/age verification new.py.git`
+
+**Navigate to the project directory**:
+
+`cd age verification new.py`
+
+**Run the following program**
+
+`python main.py`
 
 ## Legal Disclaimer
 
