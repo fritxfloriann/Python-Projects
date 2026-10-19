@@ -12,7 +12,7 @@ The source materials for these projects are located in my pinned repository, `Ba
 
 Yes! In the future, I will also include projects with other programming languages like C++, C, CSS, etc. But there is an asterisk. Projects with a different coding language may contain a percentage of usage of Python. This is to make sure the repository still has Python elements.
 
-## Why is there no comments in the project code?
+## Why are there no comments in the project code?
 
 The lack of comments in the code of the projects in this repository is primarily to strip off the unnecessary clutter for projects that are finished. The comments will remain in the `Basics in Python` folder, and comments will be removed from the code in this repository. Mainly to reduce the lines of code and to remove educational comments to reinforce the finished state of the project.
 
@@ -23,3 +23,11 @@ In this repository, the existing projects I made will be refined, given function
 ## Will the old code containing comments and the original state remain?
 
 In this repository, comments are removed to strip down unnecessary lines of code. The original state of each project can be opened in my other repository, `Basics In Python`. The old code will still remain in the other repository. But I don't recommend using any of the original code in the `Basics In Python` repository for serious applications. It is mainly for educational purposes only and should only be run for testing purposes.
+
+## Is this repository the main hub for the projects?
+
+Yes. This repository will be the main repo for my major projects with Python. The `Basics In Python` repository will mainly be a repository dedicated to me explaining each part and element in Python. This repository showcases my programs, how to install them, and how YOU can download them and use them for your programs, projects, and smaller works.
+
+## Why is there a README for every project?
+
+The README in each project is important as it contains information, instructions, installation, descriptions, functionality, usage, etc. Without a README, a program can be confusing to use and clunky to navigate. The README in each folder is as important as the project itself and what it aims to achieve. Thank you for understanding.
