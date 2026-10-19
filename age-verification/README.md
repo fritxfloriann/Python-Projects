@@ -29,4 +29,5 @@ Depending on your system, you may need to use python3 main.py.
 ## Legal Disclaimer
 
 The jurisdictions, laws, regulations, and enforcement differ across territories, federal law, and local laws. This project uses Australia's laws
-to demonstrate the age verification system that was built and shown. Responsible use of the program is expected.
+to demonstrate the age verification system that was built and shown. Responsible use of the program is expected. This project is solely for educational purposes
+and to build the fundamentals of the inputs, functions, and utilizing project into widespread ideas.
