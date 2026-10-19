@@ -2,7 +2,7 @@
 
 This repository contains all the projects, mini-projects, and programs I've coded in Python. Each has its own purpose and use, so read its README before using any program to get started.
 
-Each program will have its own README for the user as a mandatory requirement for each file. The README would be in `.txt` format with a ".README" at the end to label the file as a README. 
+Each program will have its own README for the user as a mandatory requirement for each file. The README would be in `.md` format with a ".README" at the end to label the file as a README. 
 
 ## Where is the source material for these projects?
 
