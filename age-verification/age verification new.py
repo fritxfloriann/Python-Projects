@@ -114,7 +114,7 @@ else:
     )
 
 print_dialogue(
-    "Remember, this age verification process varies by state, territory, and country, "
+    "This age verification process varies by state, territory, and country, "
     "so it's important to check the specific requirements in your area."
 )
 
