@@ -1,5 +1,5 @@
 
-# Basic Calculator
+# Basic Addition Calculator
 
 def add(x, y):
     return x + y
