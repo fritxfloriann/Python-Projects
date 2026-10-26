@@ -16,3 +16,5 @@ try:
 
 except ValueError:
     print("Invalid input! Please enter a valid number.")
+
+# This code is mainly for testing purposes only. The real calculator will come very soon.
