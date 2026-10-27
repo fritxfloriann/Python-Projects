@@ -40,6 +40,8 @@ You can check your Python version with the following command:
 
 The file name for PPPC is called `interactive_pc_price_calculator.py`. Remember where you downloaded it. It should be in your `Recent` or `Downloads` directory.
 
+Once you are inside the program, a prompt will show up, prompting you to enter your component model and the price for it. If you're unsure on what to do, the section below shows the instructions of the program and how to use it.
+
 ## Instructions & Usage
 
 In this section, you will learn how to use PPPC to calculate the total cost of your PC build. The code in the file totals up the cost of the entered prices and gives you the results upon typing all of the prices of eight components listed. Whenever you want to calculate new prices or total up the price of a new build, you can always use the program to total up the cost.
