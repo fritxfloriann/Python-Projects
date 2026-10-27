@@ -38,7 +38,7 @@ You can check your Python version with the following command:
 
 **Lastly, locate the file.**
 
-The file name for PPPC is called `interactive_pc_price_calculator.py`. Remember where you downloaded it. It should be in your `Recent` or `Downloads` directory.
+The file name for PPPC is called `interactive_pc_price_calculator.py`. Remember where you downloaded it. It should be in your `Recent` or `Downloads` directory if you are on Windows. If you're in any other operation systems like Linux or macOS, the file should be available on your file explorer.
 
 Once you are inside the program, a prompt will show up, prompting you to enter your component model and the price for it. If you're unsure on what to do, the section below shows the instructions of the program and how to use it.
 
