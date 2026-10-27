@@ -1,3 +1,41 @@
 # Welcome to the Calculator Project.
 
-This project contains a calculator program that calculates your input and provides an answer. This project is mainly terminal-based, as I'm still focusing on Python. The calculator will have the following operations: addition, subtraction, division, and multiplication. It will have error handling for syntax errors and math errors. A scientific calculator will be in progress very soon once the project finalizes the program.
+This project contains a calculator program that calculates your input and provides an answer. This project is mainly terminal-based, as I'm still focusing on Python. The calculator will support addition, subtraction, division, and multiplication. It will have error handling for syntax errors and math errors. A scientific calculator will be in progress very soon once the project finalizes the program.
+
+## Instructions
+
+To run the calculator, you must meet the requirements listed below.
+
+You must have Python 3.10 or newer to run this program and a terminal or command prompt in order to type inputs. If you want to modify the code for the program, feel free to do so. You need a code editor like Visual Studio Code to edit the code.
+
+**First, install the program.**
+
+To install the calculator program, you can clone this repository using Git:
+
+git clone https://github.com/fritxfloriann/calculator_main.git
+
+You can also download the repository as a ZIP archive and extract the contents of the program.
+
+**Second, open the project directory.**
+
+Enter the following command:
+
+`cd interactive_pc_price_calculator`
+
+**More importantly, check your Python version.**
+
+You can check your Python version with the following command:
+
+`python --version`
+
+*If you are on systems that use Python 3, type the following command:*
+
+`python3 --version`
+
+*Remember, `calculator.main` requires Python 3.10 or newer to run.*
+
+Lastly, locate the file.
+
+The file name for the calculator program is called `calculator_main.py`. Remember where you downloaded it. It should be in your `Recent` or `Downloads` directory if you are on Windows. Check your file explorer if you are on Linux or macOS.
+
+If you don't know how to interact with the program, instructions will be shown below to show you how to use the calculator program. Remember, this is not a scientific calculator. It will only handle basic computing and calculations.
