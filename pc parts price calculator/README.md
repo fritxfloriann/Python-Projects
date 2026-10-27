@@ -22,7 +22,7 @@ Alternatively, download the repository as a ZIP archive and extract it.
 
 Enter the following command:
 
-`cd pc-parts-price-calculator`
+`cd interactive_pc_price_calculator`
 
 **More importantly, check your Python version.**
 
