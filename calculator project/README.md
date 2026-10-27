@@ -20,7 +20,7 @@ You can also download the repository as a ZIP archive and extract the contents o
 
 Enter the following command:
 
-`cd interactive_pc_price_calculator`
+`cd calculator_main`
 
 **More importantly, check your Python version.**
 
