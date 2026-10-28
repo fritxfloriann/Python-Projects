@@ -41,3 +41,7 @@ Lastly, locate the file.
 The file name for the calculator program is called `calculator_main.py`. Remember where you downloaded it. It should be in your `Recent` or `Downloads` directory if you are on Windows. Check your file explorer if you are on Linux or macOS.
 
 If you don't know how to interact with the program, instructions will be shown below to show you how to use the calculator program. Remember, this is not a scientific calculator. It will only handle basic computing and calculations.
+
+## How to use the calculator
+
+To use the calculator, you are greeted with a prompt that needs your input to function. 
