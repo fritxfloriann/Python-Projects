@@ -14,7 +14,7 @@ You must have Python 3.10 or newer to run this program and a terminal or command
 
 To install the calculator program, you can clone this repository using Git:
 
-git clone https://github.com/fritxfloriann/calculator_main.git
+`git clone https://github.com/fritxfloriann/calculator_main.git`
 
 You can also download the repository as a ZIP archive and extract the contents of the program.
 
