@@ -48,7 +48,7 @@ If you don't know how to use the program, the instructions below show you how to
 
 To use the calculator, you are greeted with a prompt that needs your input to function. 
 
-*I will be using `calculator.py` as an example.*
+*I will be using `calculator_multiplication.py` as an example.*
 
 First, you are greeted by the following message:
 
