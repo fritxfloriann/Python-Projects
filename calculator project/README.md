@@ -45,3 +45,18 @@ If you don't know how to interact with the program, instructions will be shown b
 ## How to use the calculator
 
 To use the calculator, you are greeted with a prompt that needs your input to function. 
+
+*I will be using `calculator.py` as an example.*
+
+First, you are greeted by the following message:
+
+`Enter the first number and then the second number to multiply.`
+
+Alongside that, you are prompted with a message to begin your calculation.
+
+`First number:`
+
+Enter the desired number to add as your first number. You need to click Enter once you are done.
+
+After that, you are prompted to enter a second number for your calculation.
+
