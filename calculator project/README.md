@@ -62,3 +62,12 @@ Enter the desired number to add as your first number. You need to click Enter on
 
 After that, you are prompted to enter a second number for your calculation.
 
+Enter your second number once you are greeted with the following question:
+
+`Second number:`
+
+After pressing Enter, you should get your answer in an instant.
+
+There you have it. You have your answer calculated in the file.
+
+A future implementation would let you use the calculator again and handle more sophisticated error handling when the user enters the invalid input. This would be present in `calculator_main.py`.
