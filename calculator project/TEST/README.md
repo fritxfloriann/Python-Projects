@@ -6,6 +6,12 @@ This folder contains calculators for each operation in math. They are limited to
 
 You can find the main program in the main folder of the `calculator project` named `calculator_main.py`. Thank you for your understanding.
 
+## Contents
+
+This folder contains all the basic operations present in a basic calculator. These include: addition, subtraction, division, multiplication, and percentage. The percentage operation is designed as a dedicated calculation to simplify the process of calculating the percentage of a number.
+
+All operations will be integrated into `calculator_main.py`, coming soon.
+
 # IMPORTANT
 
 These files are severely limited and only used for basic calculations. Error handling would catch the error, but it will exit the program. You are also limited to calculating two numbers only. After completing a calculation, the program would close. This is an issue I'm aiming to fix. Expect a refined version with `calculator_main.py`
