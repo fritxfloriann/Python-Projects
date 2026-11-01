@@ -27,10 +27,10 @@ print("4. Division (/)")
 print("5. Percentage (%)\n")
 
 try:
-    choice = input("Enter the operation you want to do: ")
+    choice = input("Enter the operation you want to do: \n")
 
-    x = float(input("Enter your first number: "))
-    y = float(input("Enter the second number: "))
+    x = float(input("Enter your first number: \n"))
+    y = float(input("Enter the second number: \n"))
 
     if choice == "1":
         result = add(x, y)
