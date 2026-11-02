@@ -4,6 +4,14 @@ This repository contains all the projects, mini-projects, and programs I've code
 
 Each program will have its own README for the user as a mandatory requirement for each file. The README would be in `.md` format with a ".README" at the end to label the file as a README. 
 
+### Current contents of the repository:
+
+`age-verification`
+
+`calculator project`
+
+`pc parts price calculator`
+
 ## Where is the source material for these projects?
 
 The source materials for these projects are located in my pinned repository, `Basics in Python`, which contains guides, comments, and step-by-step improvements of my journey. This repository is aimed at separating my projects from my experimental and journal repository for regular users who want to access my projects.
