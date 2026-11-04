@@ -76,4 +76,4 @@ A future implementation would let you use the calculator again and handle more s
 
 The TEST folder is for testing purposes only. It contains files for calculating in each of the available mathematical options. The TEST folder is where users can read and learn about basic calculations and how arithmetic works in Python. The main program will have all operations integrated into one program. Issues are yet to be addressed and resolved. Thank you for your understanding and patience.
 
-If you encounter any issues with the program, let me know the issue, and I can address it as soon as possible.
+If you encounter any issues with the program, let me know the issue, and I can address it as soon as possible. Reminder: the program is still a work in progress. Expect quirks and bugs.
