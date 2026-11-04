@@ -17,8 +17,8 @@ def percentage(x, y):
     return (x / y) * 100
 
 
-print("Welcome to calculator_main!\n")
-print("Choose what mathematical operation you want to do.\n")
+print("\nWelcome to calculator_main!\n")
+print("Choose what mathematical operation you want to do. Pick between 1-5.\n")
 
 print("1. Addition (+)")
 print("2. Subtraction (-)")
