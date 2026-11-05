@@ -18,12 +18,17 @@ def percentage(x, y):
 
 
 print("\nWelcome to calculator_main!\n")
+
 print("Choose what mathematical operation you want to do. Pick between 1-5.\n")
 
 print("1. Addition (+)")
+
 print("2. Subtraction (-)")
+
 print("3. Multiplication (*)")
+
 print("4. Division (/)")
+
 print("5. Percentage (%)\n")
 
 try:
