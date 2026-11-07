@@ -35,7 +35,19 @@ frame = tkinter.Frame(window)
 label = tkinter.Label(frame, text="0", font=("Arial", 45), background=color_black,
                       foreground=color_white)
 
-label.pack()
+label.grid(row=0, column=0, columnspan=column_count, sticky="we")
+
+for row in range(row_count):
+    for column in range(column_count):
+        value = button_values[row][column]
+        button = tkinter.Button(frame, text=value, font=("Arial", 30),
+                                width=column_count-1, height=1,
+                                command=lambda value=value: button_clicked(value))
+        button.grid(row=row + 1, column=column)
+
 frame.pack()
+
+def button_clicked(value):
+    pass
 
 window.mainloop()
