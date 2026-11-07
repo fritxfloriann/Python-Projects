@@ -33,7 +33,7 @@ window.resizable(False, False)
 frame = tkinter.Frame(window)
 
 label = tkinter.Label(frame, text="0", font=("Arial", 45), background=color_black,
-                      foreground=color_white, anchor="e")
+                      foreground=color_white, anchor="e", width=column_count)
 
 label.grid(row=0, column=0, columnspan=column_count, sticky="we")
 
@@ -45,7 +45,7 @@ for row in range(row_count):
                                 command=lambda value=value: button_clicked(value))
 
         if value in top_symbols:
-            button.config(foreground=color_black, background=color_light_grey)
+            button.config(foreground=color_black, background=color_light_grey)  
         elif value in right_symbols:
             button.config(foreground=color_white, background=color_orange)
         else:
