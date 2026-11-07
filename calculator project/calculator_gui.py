@@ -54,8 +54,26 @@ for row in range(row_count):
 
 frame.pack()
 
+# A+B, A-B, A*B, A/B
+A = "0"
+operator = None
+B = None 
+
 def button_clicked(value):
-    pass
+    global right_symbols, top_symbols, label, A, B, operator
+
+    if value in right_symbols:
+        pass
+    elif value in top_symbols:
+        pass
+    else:
+        if value == ".":
+            pass
+        elif value in "0123456789":
+            if label["text"] == "0": #5
+                label["text"] = value # replace 0
+            else:
+                label["text"] += value #append digit
 
 # This centers the program
 
