@@ -35,4 +35,7 @@ frame = tkinter.Frame(window)
 label = tkinter.Label(frame, text="0", font=("Arial", 45), background=color_black,
                       foreground=color_white)
 
+label.pack()
+frame.pack()
+
 window.mainloop()
