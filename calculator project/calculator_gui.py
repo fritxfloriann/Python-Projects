@@ -57,4 +57,19 @@ frame.pack()
 def button_clicked(value):
     pass
 
+# This centers the program
+
+window.update() # Updates window with the new size dimensions
+
+window_width = window.winfo_width()
+window_height = window.winfo_height()
+screen_width = window.winfo_screenwidth()
+screen_height = window.winfo_screenheight()
+
+window_x = int((screen_width/2) - (window_width/2))
+window_y = int((screen_height/2) - (window_height/2))
+
+# Format = "(w)x(h)+(x)+(y)"
+window.geometry(f"{window_width}x{window_height}+{window_x}+{window_y}")
+
 window.mainloop()
