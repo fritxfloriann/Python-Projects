@@ -25,6 +25,9 @@ color_white = "#FFFFFF"
 # This imports the window for the calculator
 
 window = tkinter.Tk() # Create the window
+
 window.title("Calculator Main")
+
 window.resizable(False, False)
+
 window.mainloop()
