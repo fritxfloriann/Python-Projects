@@ -1,5 +1,5 @@
 
-# A Calculator Made in Python
+print("This file is deprecated. I recommend using the `calculator_main.py` file for a better experience.\n")
 
 def add(x, y):
     return x + y
