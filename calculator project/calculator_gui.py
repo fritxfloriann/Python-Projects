@@ -65,6 +65,11 @@ def clear_all():
     operator = None
     B = None 
 
+def remove_zero_decimal(num): 
+    if num % 1 == 0:
+        num = int(num)
+    return str(num)
+
 def button_clicked(value):
     global right_symbols, top_symbols, label, A, B, operator
 
@@ -75,9 +80,9 @@ def button_clicked(value):
             clear_all()
             label["text"] = "0"
 
-        elif value == "+/-":
+        elif value == "+/-": 
             result = float(label["text"]) * -1
-            label["text"] = str(result)
+            label["text"] = remove_zero_decimal(result)
         elif value == "%":
             pass
     else:
