@@ -4,7 +4,7 @@ This project contains a calculator program that calculates your input and provid
 
 You may notice a folder called `TEST`. It contains files for calculations for each operation. It is mainly for testing purposes only and for experimental purposes only as well. It is aimed at testing out arithmetic functions and mathematical operations in Python. It was originally used as a calculator for standalone operations. But with practicality issues and being severely limited to just basic calculations, the main calculator program aims to unify all operations together alongside understanding complex questions and calculations.
 
-Alongside a basic calculator, a scientific calculator will be implemented once the project for `calculator_main.py` finishes development. A scientific calculator would offer more operations, functions, and advanced mathematical calculations. This is important because the scientific calculator would provide capability for doing advanced math and more complex equations. 
+The full-fledged calculator program is now available! Available with a GUI, repeatable calculations, and multiple new features, it is the main program in this project. You can find it in the `calculator_main.py` file available in this folder. Thank you for the support and my sustained learning; I'm able to create a full program in Python. This will serve as my first program and will be continuously updated as time goes by.
 
 ## Instructions & Usage
 
