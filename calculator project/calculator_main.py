@@ -61,6 +61,7 @@ frame.pack()
 A = "0"
 operator = None
 B = None 
+math_error = False
 
 def clear_all():
     global A, B, operator
@@ -74,7 +75,22 @@ def remove_zero_decimal(num):
     return str(num)
 
 def button_clicked(value):
-    global right_symbols, top_symbols, label, A, B, operator
+    global right_symbols, top_symbols, label, A, B, operator, math_error
+
+    if math_error:
+        if value == "AC":
+          math_error = False
+        clear_all()
+        label["text"] = "0"
+        return
+
+    elif value in "0123456789.":
+        math_error = False
+        clear_all()
+        label["text"] = "0"
+
+    else:
+        return
 
     if value in right_symbols:
         if value == "=":
@@ -91,6 +107,13 @@ def button_clicked(value):
                     label["text"] = remove_zero_decimal(numA * numB)
                 elif operator == "÷":
                     label["text"] = remove_zero_decimal(numA / numB)
+                    if numB == 0:
+                        label["text"] = "Math Error"
+                        clear_all()
+                        math_error = True
+                        return
+                    else:
+                        result = numA / numB
 
                 clear_all()
                 
