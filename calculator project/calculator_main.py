@@ -6,14 +6,14 @@ button_values = [
     ["7", "8", "9", "×"],
     ["4", "5", "6", "-"],
     ["1", "2", "3", "+"],
-    ["0", ".", "✓", "="]
+    ["0", ".", "⌫", "="]
 ]
 
 right_symbols = ["÷", "×", "-", "+", "="]
 top_symbols = ["AC", "+/-", "%"]
 
-row_count = len(button_values)  # 5
-column_count = len(button_values[0])  # 4
+row_count = len(button_values)
+column_count = len(button_values[0])
 
 color_light_grey = "#D4D4D2"
 color_black = "#000000"
@@ -21,7 +21,7 @@ color_dark_grey = "#505050"
 color_orange = "#FF9500"
 color_white = "#FFFFFF"
 
-# This imports the window for the calculator
+# Create calculator window
 
 window = tkinter.Tk()
 
@@ -40,10 +40,18 @@ label = tkinter.Label(
     width=column_count
 )
 
-label.grid(row=0, column=0, columnspan=column_count, sticky="we")
+label.grid(
+    row=0,
+    column=0,
+    columnspan=column_count,
+    sticky="we"
+)
+
+# Create calculator buttons
 
 for row in range(row_count):
     for column in range(column_count):
+
         value = button_values[row][column]
 
         button = tkinter.Button(
@@ -60,11 +68,13 @@ for row in range(row_count):
                 foreground=color_black,
                 background=color_light_grey
             )
+
         elif value in right_symbols:
             button.config(
                 foreground=color_white,
                 background=color_orange
             )
+
         else:
             button.config(
                 foreground=color_white,
@@ -75,7 +85,7 @@ for row in range(row_count):
 
 frame.pack()
 
-# A+B, A-B, A*B, A/B
+# Calculator variables
 
 A = "0"
 operator = None
@@ -92,6 +102,7 @@ def clear_all():
 
 
 def remove_zero_decimal(num):
+
     if num % 1 == 0:
         num = int(num)
 
@@ -99,12 +110,13 @@ def remove_zero_decimal(num):
 
 
 def button_clicked(value):
-    global right_symbols, top_symbols, label
+
     global A, B, operator, math_error
 
-    # Handle recovery after a mathematical error
+    # Handle recovery after Math Error
 
     if math_error:
+
         if value == "AC":
             math_error = False
             clear_all()
@@ -119,9 +131,12 @@ def button_clicked(value):
         else:
             return
 
+    # Handle arithmetic operators
+
     if value in right_symbols:
 
         if value == "=":
+
             if A is not None and operator is not None:
 
                 B = label["text"]
@@ -139,11 +154,15 @@ def button_clicked(value):
                     result = numA * numB
 
                 elif operator == "÷":
+
+                    # Division by zero protection
+
                     if numB == 0:
                         label["text"] = "Math Error"
                         clear_all()
                         math_error = True
                         return
+
                     else:
                         result = numA / numB
 
@@ -160,6 +179,8 @@ def button_clicked(value):
 
             operator = value
 
+    # Handle special buttons
+
     elif value in top_symbols:
 
         if value == "AC":
@@ -167,27 +188,50 @@ def button_clicked(value):
             label["text"] = "0"
 
         elif value == "+/-":
+
             result = float(label["text"]) * -1
             label["text"] = remove_zero_decimal(result)
 
         elif value == "%":
+
             result = float(label["text"]) / 100
             label["text"] = remove_zero_decimal(result)
+
+    # Handle backspace
+
+    elif value == "⌫":
+
+        current_text = label["text"]
+
+        if len(current_text) > 1:
+
+            label["text"] = current_text[:-1]
+
+            if label["text"] == "-":
+                label["text"] = "0"
+
+        else:
+            label["text"] = "0"
+
+    # Handle numbers and decimal points
 
     else:
 
         if value == ".":
+
             if value not in label["text"]:
                 label["text"] += value
 
         elif value in "0123456789":
+
             if label["text"] == "0":
                 label["text"] = value
+
             else:
                 label["text"] += value
 
 
-# This centers the program
+# Centre calculator window
 
 window.update()
 
@@ -199,8 +243,6 @@ screen_height = window.winfo_screenheight()
 
 window_x = int((screen_width / 2) - (window_width / 2))
 window_y = int((screen_height / 2) - (window_height / 2))
-
-# Format = "(w)x(h)+(x)+(y)"
 
 window.geometry(
     f"{window_width}x{window_height}+{window_x}+{window_y}"
