@@ -48,29 +48,19 @@ If you don't know how to use the program, the instructions below show you how to
 
 To use the calculator, you are greeted with a prompt that needs your input to function. 
 
-*I will be using `calculator_multiplication.py` as an example.*
+*The instruction uses the `calculator_main.py` file.*
 
-First, you are greeted by the following message:
+First, open the executable file called `calculator_main.py`. You are greeted with the GUI of the program.
 
-`Enter the first number and then the second number to multiply.`
+Enter the first number you want to calculate by tapping a number.
 
-Alongside that, you are prompted with a message to begin your calculation.
+For example, enter the first number you want to calculate. Then select an operation you want to calculate your numbers with.
 
-`First number:`
+Secondly, once you're done, press the button with the equal symbol. This will now calculate the total equation of the calculations you have entered.
 
-Enter the desired number to add as your first number. You need to click Enter once you are done.
+After that, you will get the answer for your calculations. This is now your total. Congratulations, you have calculated your answer.
 
-After that, you are prompted to enter a second number for your calculation.
-
-Enter your second number once you are greeted with the following question:
-
-`Second number:`
-
-After pressing Enter, you should get your answer in an instant.
-
-There you have it. You have your answer calculated in the file.
-
-A future implementation would let you use the calculator again and handle more sophisticated error handling when the user enters invalid input. This would be present in `calculator_main.py`.
+*Remember, dividing by zero can result in a Math Error.*
 
 ## Important Message
 
