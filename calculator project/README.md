@@ -56,14 +56,20 @@ Enter the first number you want to calculate by tapping a number.
 
 For example, enter the first number you want to calculate. Then select an operation you want to calculate your numbers with.
 
-Secondly, once you're done, press the button with the equal symbol. This will now calculate the total equation of the calculations you have entered.
+Secondly, once you're done, press the button with the equal symbol. This will now calculate the total of the calculations you have entered.
 
 After that, you will get the answer for your calculations. This is now your total. Congratulations, you have calculated your answer.
 
 *Remember, dividing by zero can result in a Math Error.*
 
-## Important Message
+# Important Message
 
-The TEST folder is for testing purposes only. It contains files for calculating in each of the available mathematical options. The TEST folder is where users can read and learn about basic calculations and how arithmetic works in Python. The main program will have all operations integrated into one program. Issues are yet to be addressed and resolved. Thank you for your understanding and patience.
+The TEST folder is for testing purposes only. It contains files for calculations in each of the available mathematical options. The TEST folder lets users read and learn basic calculations and how arithmetic works in Python. It's a very basic terminal program for calculations instead of a simple GUI-based calculator.
+
+The `calculator_main_v1.py` file is deprecated. It can still be used for basic calculations, but I recommend using the `calculator_main.py` file instead. It has many features to offer, has a GUI interface, much more effective error handling, and you can use the program without it exiting upon completing a calculation. As with the `TEST` folder, it is deprecated. You can still use them, but it would be a clunky experience.
+
+Since this repository is subject to the MIT licence, you can freely fork my repository, modify the code provided in the project folders, and tinker with the already implemented source code.
 
 If you encounter any issues with the program, let me know the issue, and I can address it as soon as possible. Reminder: the program is still a work in progress. Expect quirks and bugs.
+
+*Subject to MIT Licence*
