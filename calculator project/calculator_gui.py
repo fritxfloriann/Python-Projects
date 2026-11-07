@@ -74,8 +74,10 @@ def button_clicked(value):
         if value == "AC":
             clear_all()
             label["text"] = "0"
+
         elif value == "+/-":
-            pass
+            result = float(label["text"]) * -1
+            label["text"] = str(result)
         elif value == "%":
             pass
     else:
