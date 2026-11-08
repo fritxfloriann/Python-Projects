@@ -62,6 +62,44 @@ After that, you will get the answer for your calculations. This is now your tota
 
 *Remember, dividing by zero can result in a Math Error.*
 
+## Features of the Calculator
+
+The features included in the program are packed with tons of functionality, operations, and basic capabilities that you can use with the program. It is important to note that this program is only equivalent to a basic calculator. A scientific calculator will come soon.
+
+### Arithmetic Operations
+
+There are a couple of arithmetic operations available on the calculator program. It is used for calculations. That includes:
+
+• *Addition* **(+)**
+
+• *Subtraction* **(-)**
+
+• *Multiplication* **(×)**
+
+• *Division* **(÷)**
+
+• *Percentage* **(%)**
+
+• *Equals* **(=)**
+
+### Number Manipulation
+
+These functions help you not just interact with and calculate numbers, but manipulate them to achieve a precise calculation.
+
+A couple of notable functions include:
+
+• *Number Input* **(0-9)**
+
+• *Decimal Input Input* **(.)**
+
+• *Sign Conversion* **(+/-)**
+
+• *Percentage* **(%)**
+
+• *Backspace* **(⌫)**
+
+• *Clear All* **(AC)**
+
 # Important Message
 
 The TEST folder is for testing purposes only. It contains files for calculations in each of the available mathematical options. The TEST folder lets users read and learn basic calculations and how arithmetic works in Python. It's a very basic terminal program for calculations instead of a simple GUI-based calculator.
