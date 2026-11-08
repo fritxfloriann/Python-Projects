@@ -231,6 +231,68 @@ def button_clicked(value):
                 label["text"] += value
 
 
+# Keyboard support
+
+def keyboard_input(event):
+
+    key = event.keysym
+    char = event.char
+
+    # Special keyboard keys
+
+    key_map = {
+        "Return": "=",
+        "KP_Enter": "=",
+        "KP_Equal": "=",
+        "BackSpace": "⌫",
+        "Escape": "AC",
+        "KP_Add": "+",
+        "KP_Subtract": "-",
+        "KP_Multiply": "×",
+        "KP_Divide": "÷",
+        "KP_Decimal": ".",
+        "KP_0": "0",
+        "KP_1": "1",
+        "KP_2": "2",
+        "KP_3": "3",
+        "KP_4": "4",
+        "KP_5": "5",
+        "KP_6": "6",
+        "KP_7": "7",
+        "KP_8": "8",
+        "KP_9": "9"
+    }
+
+    if key in key_map:
+        button_clicked(key_map[key])
+        return "break"
+
+    # Regular keyboard characters
+
+    char_map = {
+        "+": "+",
+        "-": "-",
+        "*": "×",
+        "/": "÷",
+        "=": "=",
+        ".": ".",
+        "%": "%"
+    }
+
+    if char in "0123456789":
+        button_clicked(char)
+        return "break"
+
+    elif char in char_map:
+        button_clicked(char_map[char])
+        return "break"
+
+
+# Connect keyboard to calculator
+
+window.bind_all("<Key>", keyboard_input)
+
+
 # Centre calculator window
 
 window.update()
