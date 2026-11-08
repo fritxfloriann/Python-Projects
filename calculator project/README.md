@@ -66,6 +66,8 @@ After that, you will get the answer for your calculations. This is now your tota
 
 The features included in the program are packed with tons of functionality, operations, and basic capabilities that you can use with the program. It is important to note that this program is only equivalent to a basic calculator. A scientific calculator will come soon.
 
+*This section refers to the `calculator_main.py` program.*
+
 ### Arithmetic Operations
 
 There are a couple of arithmetic operations available on the calculator program. It is used for calculations. That includes:
@@ -99,6 +101,20 @@ A couple of notable functions include:
 • *Backspace* **(⌫)**
 
 • *Clear All* **(AC)**
+
+### Error Handling
+
+When the program runs into a problem that it cannot solve, there is error handling present in order to keep the problem functioning.
+
+Here are the error handling features that is available with `calculator_main.py`:
+
+• *Division By Zero Protection* **(Catches a Math Error when dividing or percenting by Zero.)**
+
+• *Math Error* **(Displays a Math Error when the calculation is illegal.)**
+
+• *Backspace* **(You can delete an entry one by one with the backspace function.)**
+
+• *Error Recovery* **(Upon Math Error, pressing Backspace or AC will restart to the default state of the calculator.)**
 
 # Important Message
 
