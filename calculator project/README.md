@@ -1,6 +1,6 @@
 # Welcome to the Calculator Project.
 
-This project contains a calculator program that calculates your input and provides an answer. This program for the calculator is finished and it has a sleek GUI interface to go with it. The calculator supports addition, subtraction, division, and multiplication. It will have error handling for syntax errors and math errors. A scientific calculator will be in progress very soon once the project finalizes the program.
+This project contains a calculator program that calculates your input and provides an answer. This program for the calculator is finished and it has a sleek GUI interface to go with it. The calculator supports addition, subtraction, division, and multiplication. It has error handling for syntax errors and math errors. As time progresses, the program will be continuously be maintained, improved, and new features will constantly get added soon.
 
 You may notice a folder called `TEST`. It contains files for calculations for each operation. It is mainly for testing purposes only and for experimental purposes only as well. It is aimed at testing out arithmetic functions and mathematical operations in Python. It was originally used as a calculator for standalone operations. But with practicality issues and being severely limited to just basic calculations, the main calculator program aims to unify all operations together alongside understanding complex questions and calculations.
 
