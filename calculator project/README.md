@@ -106,7 +106,7 @@ A couple of notable functions include:
 
 When the program runs into a problem that it cannot solve, there is error handling present in order to keep the problem functioning.
 
-Here are the error handling features that is available with `calculator_main.py`:
+Here are the error handling features that are available with `calculator_main.py`:
 
 • *Division By Zero Protection* **(Catches a Math Error when dividing or percenting by Zero.)**
 
@@ -115,6 +115,25 @@ Here are the error handling features that is available with `calculator_main.py`
 • *Backspace* **(You can delete an entry one by one with the backspace function.)**
 
 • *Error Recovery* **(Upon Math Error, pressing Backspace or AC will restart to the default state of the calculator.)**
+
+### Keyboard Support
+
+This program supports keyboard input using your keyboard's numpad and keys.
+
+You can use the keys tied to the arithmetic symbols and the numpad and number row keys to enter numbers from 0-9 in the program!
+
+### GUI-Based
+
+Improved from the original `calculator_main_v1.py`, the `calculator_main.py` program is GUI-based, which is more appealing and more easier to use than being terminal-based. This enhances the user experience by providing a visual and interactive experience rather than typing numbers and choosing manually in terminals or command prompts.
+
+The GUI of the program looks like this:
+
+<p align="center">
+  <img src="assets/calculator_main.png"
+       alt="calculator_main"
+       width="25%">
+
+*Remember, the interface may change over time as new features get continuously added.*
 
 # Important Message
 
