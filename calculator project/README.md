@@ -132,8 +132,10 @@ The GUI of the program looks like this:
   <img src="assets/calculator_main.png"
        alt="calculator_main"
        width="25%">
-
-*Remember, the interface may change over time as new features get continuously added.*
+  
+<p align="center">
+  Remember, the interface may change over time as new features get continuously added.
+</p>
 
 # Important Message
 
