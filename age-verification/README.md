@@ -17,15 +17,15 @@ The process can be straightforward and simplified.
 
 **Clone this repository**:
 
-`git clone https://github.com/fritxfloriann/age verification new.py.git`
+`git clone https://github.com/fritxfloriann/age_verification new.py.git`
 
 **Navigate to the project directory**:
 
-`cd age verification new.py`
+`cd age_verification new.py`
 
 **Run the following program**
 
-`age verification new.py`
+`python age_verification new.py`
 
 ## Legal Disclaimer
 
