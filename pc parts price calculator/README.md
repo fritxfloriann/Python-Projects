@@ -137,3 +137,5 @@ The latest commit (October 19, 2026) introduced a component model prompt, which 
 The `pc price calculator.py` is deprecated and is only for testing purposes and basic functionality. You can still use it for basic calculations, but the new PPPC is superior and has more features than the original calculator. This makes it stand out from the source code and gives clearer instructions on which file to use. I recommend using the newer build, known as `interactive_pc_price_calculator.py`, to calculate your PC build!
 
 The source code is for testing and archival purposes only. Feel free to experiment with the original code for PPPC. Thank you for your understanding.
+
+*Subject to MIT licence*
