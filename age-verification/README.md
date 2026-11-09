@@ -32,3 +32,5 @@ The process can be straightforward and simplified.
 The jurisdictions, laws, regulations, and enforcement differ across territories, federal law, and local laws. This project uses Australia's laws
 to demonstrate the age verification system that was built and shown. Responsible use of the program is expected. This project is solely for educational purposes
 and to build the fundamentals of the inputs, functions, and utilization of the project for widespread ideas.
+
+*Subject to MIT licence*
