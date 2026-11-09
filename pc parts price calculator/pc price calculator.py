@@ -1,8 +1,6 @@
 
 # This is the first version of PPPC. I don't recommend this to be executed as this is deprecated.
 
-# Let's make a PC part calculator by inputting the existing prices of each component to calculate the cost.
-
 cpu_price = 400
 gpu_price = 700
 motherboard_price = 200
@@ -23,10 +21,6 @@ print(f"The storage device, power supply, and case all costs {storage_price}, {p
 
 print(f"For the total price of the entire rig, the total comes up to {total_build} dollars before taxes.")
 
-# This shows how arithmetic functions can calculate variables in Python.
-
-# And now, let's do a different approach with formatting and more sophisticated commands.
-
 parts = {
     "CPU": 400,
     "GPU": 700,
@@ -46,4 +40,4 @@ for part, price in parts.items():
 print("-" * 30)
 print(f"{'Total':<12} ${total_build:>7.2f}")
 
-# It will output dashes and has its own title to show the list. This is how Python formats code when doing math.
+# It will output dashes and has its own title to show the list.
