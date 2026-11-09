@@ -1,11 +1,10 @@
 # Age Verification
 
-This program is a simple, bare-bones version of an age verification system. Made with basic functions, inputs, and Python,
-it can be used to determine if the user meets the requirements for a certain action, qualification, or object by their age group.
+This program is a simple, bare-bones version of an age verification system. Made with basic functions, inputs, and Python, it can be used to determine if the user meets the requirements for a certain action, qualification, or object by their age group.
 
 This project is for educational purposes only. It is only used at a basic level, and it should never be integrated into more sophisticated systems.
 
-## Instructions
+## Installation
 
 age verification.py requires Python 3.10 or newer to run alongside a basic terminal or command prompt. It can be `cmd.exe` on Windows and your terminal
 on Linux. You also need the important packages and requirements to run any newer Python programs.
@@ -13,30 +12,6 @@ on Linux. You also need the important packages and requirements to run any newer
 **Installation**
 
 The process can be straightforward and simplified.
-
-**Clone this repository**:
-
-`git clone https://github.com/fritxfloriann/age verification.py.git`
-
-**Navigate to the project directory**:
-
-`cd age verification.py`
-
-**Run the following program**
-
-`python main.py`
-
-# How to install the new age verification.py file
-
-There are currently two versions of this project. One is where you type your age repeatedly in every individual question, while the new, unified age verification file aims to use your entered age to answer everything with one prompt. This makes age verification dramatically simpler to use, alongside not having to enter your age every time you ask a question.
-
-## Instructions
-
-The new age verification file, named `age verification new.py`, also requires Python 3.10 or newer and a basic terminal or command prompt to run. Important packages and dependencies should be installed first for the code to work properly.
-
-**Installation**
-
-The process is similar to the original `age verification.py` file.
 
 **Clone this repository**:
 
@@ -48,8 +23,7 @@ The process is similar to the original `age verification.py` file.
 
 **Run the following program**
 
-`python main.py`
-
+`age verification new.py`
 ## Legal Disclaimer
 
 The jurisdictions, laws, regulations, and enforcement differ across territories, federal law, and local laws. This project uses Australia's laws
