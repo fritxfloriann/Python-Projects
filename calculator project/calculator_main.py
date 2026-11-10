@@ -231,7 +231,7 @@ def button_clicked(value):
                 label["text"] += value
 
 
-# Keyboard support
+# Keyboard input
 
 def keyboard_input(event):
 
