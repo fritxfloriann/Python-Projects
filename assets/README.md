@@ -1,1 +1,1 @@
-This folder stores photos, videos, and visual contents for the repository.
+This folder stores photos, videos, and visual content for the repository.
