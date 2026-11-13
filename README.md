@@ -2,7 +2,7 @@
 
 This repository contains all the projects, mini-projects, and programs I've coded in Python. Each has its own purpose and use, so read its README before using any program to get started.
 
-Each program will have its own README for the user as a mandatory requirement for each file. The README would be in `.md` format with a ".README" at the end to label the file as a README. Remember to follow the instructions and the installation process of each program before installing and using the programs. All programs have the MIT license, which means you can freely modify my code. Thank you for your understanding.
+Each program will have its own README for the user as a mandatory requirement for each file. The README would be in `.md` format with a ".README" at the end to label the file as a README. Remember to follow the instructions and the installation process of each program before installing and using the programs. All programs have the MIT license, which means you can freely modify my code. Each of the folders contains its own independent project. You can find the projects in this repository in their folder.
 
 ### Current contents of the repository:
 
@@ -12,7 +12,9 @@ Each program will have its own README for the user as a mandatory requirement fo
 
 `pc parts price calculator`
 
-*More will be added soon.*
+`unit converter`
+
+*More projects will come in the future.*
 
 # LEGACY FOLDERS
 
