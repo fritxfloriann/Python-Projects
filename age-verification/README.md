@@ -27,6 +27,8 @@ The process can be straightforward and simplified.
 
 `python age_verification_new.py`
 
+It should launch in your command prompt or terminal. The program currently runs in the terminal, which is basic by today's standards. A future implementation is aimed at modernizing the age verification program by introducing a GUI and a more interactive user experience.
+
 ## Legal Disclaimer
 
 The jurisdictions, laws, regulations, and enforcement differ across territories, federal law, and local laws. This project uses Australia's laws
