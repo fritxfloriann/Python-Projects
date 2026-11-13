@@ -1,6 +1,8 @@
 # Python-Projects
 
-This repository contains all the projects, mini-projects, and programs I've coded in Python. Each has its own purpose and use, so read its README before using any program to get started.
+This repository contains all the projects, mini-projects, and programs I've coded in Python. Each has its own purpose and use, so read its README before using any program to get started. The folders usually contain their own guide, instructions, and overview of the project.
+
+*NOTE: Some projects are still incomplete. Expect some issues, bugs, and missing lines of code.*
 
 Each program will have its own README for the user as a mandatory requirement for each file. The README would be in `.md` format with a ".README" at the end to label the file as a README. Remember to follow the instructions and the installation process of each program before installing and using the programs. All programs have the MIT license, which means you can freely modify my code. Each of the folders contains its own independent project. You can find the projects in this repository in their folder.
 
