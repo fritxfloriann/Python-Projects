@@ -132,6 +132,10 @@ The GUI of the program looks like this:
   <img src="assets/calculator_main.png"
        alt="calculator_main"
        width="25%">
+
+<p align="center">
+<sub> calculator_main.py </sub>
+</p>
   
 <p align="center">
   Remember, the interface may change over time as new features get continuously added.
