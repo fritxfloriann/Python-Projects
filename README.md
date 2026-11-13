@@ -26,7 +26,7 @@ As for using the contents inside the folder, I do not recommend doing so. The fi
 
 # FREQUENTLY ASKED QUESTIONS
 
-The following questions contain answers.
+Below are the most frequently asked questions for this repository. If you have any questions for me to answer, you can send me a message through my email.
 
 ## Where is the source material for these projects?
 
