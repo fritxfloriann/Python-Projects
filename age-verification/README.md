@@ -8,7 +8,7 @@ This project is for educational purposes only. It is only used at a basic level,
 
 ## Installation
 
-age verification.py requires Python 3.10 or newer to run alongside a basic terminal or command prompt. It can be `cmd.exe` on Windows and your terminal
+`age verification_new.py` requires Python 3.10 or newer to run alongside a basic terminal or command prompt. It can be `cmd.exe` on Windows and your terminal
 on Linux. You also need the important packages and requirements to run any newer Python programs.
 
 **Installation**
@@ -17,15 +17,15 @@ The process can be straightforward and simplified.
 
 **Clone this repository**:
 
-`git clone https://github.com/fritxfloriann/age_verification new.py.git`
+`git clone https://github.com/fritxfloriann/age_verification_new.py.git`
 
 **Navigate to the project directory**:
 
-`cd age_verification new.py`
+`cd age_verification_new.py`
 
 **Run the following program**
 
-`python age_verification new.py`
+`python age_verification_new.py`
 
 ## Legal Disclaimer
 
