@@ -16,11 +16,11 @@ Each program will have its own README for the user as a mandatory requirement fo
 
 # LEGACY FOLDERS
 
-The legacy folders contain the original source material for the projects in `Python-Projects`. In these folders, you can find the original version of the projects and even the source code. The legacy folders focuses on organizing legacy files to newer ones. This feature makes it convenient for users to navigate the actual program and the original snapshots.
+The legacy folders contain the source material for the projects in `Python-Projects`. In these folders, you can find the original version of the projects and even the source code. The legacy folders focus on organizing legacy files alongside newer ones. This feature makes it convenient for users to navigate the actual program and the original snapshots.
 
 # FREQUENTLY ASKED QUESTIONS
 
-The following questions contains an answer.
+The following questions contain answers.
 
 ## Where is the source material for these projects?
 
