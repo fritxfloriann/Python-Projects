@@ -8,7 +8,7 @@ Each program will have its own README for the user as a mandatory requirement fo
 
 ### Current contents of the repository:
 
-`age-verification`
+`age verification`
 
 `calculator project`
 
