@@ -1,6 +1,6 @@
 # Python-Projects
 
-This repository contains all the projects, mini-projects, and programs I've coded in Python. Each has its own purpose and use, so read its README before using any program to get started. The folders usually contain their own guide, instructions, and overview of the project.
+This repository contains all the projects, mini-projects, and programs I've coded in Python. Each has its own purpose and use, so read its README before using any program to get started. The folders usually contain their own guide, instructions, and overview of the project. Programs are located inside their own designated folders.
 
 *NOTE: Some projects are still incomplete. Expect some issues, bugs, and missing lines of code.*
 
