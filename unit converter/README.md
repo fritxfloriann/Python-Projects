@@ -106,4 +106,15 @@ The unit converter program has a simple and minimalistic interface that only foc
 
 The GUI interface for the unit converter looks like this:
 
+<p align="center">
+  <img src="assets/unit_converter_ui.png"
+       alt="calculator_main"
+       width="25%">
+
+<p align="center">
+<sub> unit_converter.py </sub>
+</p>
+
+
+
 In the legacy folder, you can see the source code for the project. It is mainly for testing and experimental purposes only. You can find the main program with the name `unit_converter.py`.
