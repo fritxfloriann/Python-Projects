@@ -2,6 +2,8 @@
 
 The Unit Converter program focuses on converting units to a desired unit. For example, converting feet to centimeters. It converts imperial and metric units based on what the user inputs. The main program is GUI-based, and you can switch units and convert as many as you want. The interface of the program enhances the user experience by its simplicity and reusability. Instead of calculating the units manually, the program handles conversion through its code.
 
+In the `LEGACY` folder, you can see the legacy version of the unit converter program. This is the first version of the unit converter, firstly terminal-based only. While it was reliable, the interface of the program was still stuck on terminals and command prompts. Eventually, a GUI-based unit converter program was made to modernize its capabilities and features. The legacy version of the unit converter is now only for testing and experimental purposes only as the new GUI-based program of the unit converter succeeds in many ways.
+
 ## Installation
 
 To install the unit converter, you must meet the requirements below to run the program:
