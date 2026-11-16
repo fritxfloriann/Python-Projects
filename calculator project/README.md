@@ -120,11 +120,11 @@ Here are the error handling features that are available with `calculator_main.py
 
 ### Keyboard Support
 
-This program supports keyboard input using your keyboard's numpad and keys.
+This program supports keyboard input using your keyboard's numpad and keys. Using the numpad, number row, and mathematical symbols on your keyboard, you can start using the program using just a keyboard.
 
 You can use the keys tied to the arithmetic symbols and the numpad and number row keys to enter numbers from 0-9 in the program!
 
-### GUI-Based
+### GUI Interface
 
 Improved from the original `calculator_main_legacy.py`, the `calculator_main.py` program is GUI-based, which is more appealing and more easier to use than being terminal-based. This enhances the user experience by providing a visual and interactive experience rather than typing numbers and choosing manually in terminals or command prompts.
 
