@@ -104,7 +104,9 @@ For example, entering letters or symbols in the numeric value text box can cause
 
 The unit converter program has a simple and minimalistic interface that only focuses on conversion. It also features a swap button and a light gray color scheme. The interface is basic, but future updates will improve it through gradual implementations. The GUI upgrade from the original program to the modern program is impactful, as a GUI-based program is more interactive and readable than terminal-based programs.
 
-The GUI interface for the unit converter looks like this:
+<p align="center">
+  The GUI interface for the unit converter looks like this:
+</p>
 
 <p align="center">
   <img src="assets/unit_converter_ui.png"
@@ -115,6 +117,8 @@ The GUI interface for the unit converter looks like this:
 <sub> unit_converter.py </sub>
 </p>
 
-
+<p align="center">
+  The GUI interface is subject to change over time.
+</p>
 
 In the legacy folder, you can see the source code for the project. It is mainly for testing and experimental purposes only. You can find the main program with the name `unit_converter.py`.
