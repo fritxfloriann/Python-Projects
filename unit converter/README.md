@@ -82,4 +82,12 @@ Each conversion unit has its own measurement unit. Here are some of the measurem
 
 *More can be found in the program*
 
+### User Input
+
+The program is mainly navigated using your cursor. Drop-down menus and selections are embedded into the interface, while the results are at the bottom of the interface. The program utilizes text boxes and drop-down menus for users to make their selections. The options they input will be used to convert their numerical inputs into a result.
+
+*By clicking on the categories of the conversion units listed, you pick between imperial and metric units to convert.*
+
+As simple as how simple mouse navigation is, keyboard input will be implemented in the future to make converting much more faster by letting the users type on their keyboard to choose instead of navigating and clicking on boxes. You can still use mouse navigation, as keyboard input is implemented alongside mouse input to support two inputs at once.
+
 In the legacy folder, you can see the source code for the project. It is mainly for testing and experimental purposes only. You can find the main program with the name `unit_converter.py`.
