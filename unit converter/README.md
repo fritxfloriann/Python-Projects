@@ -62,6 +62,16 @@ This program offers a couple of units for the user to convert to. There is a cat
 
 - *Temperature*
 
-Each conversion unit has its own measurement unit.
+Each conversion unit has its own measurement unit. Here are the measurement units for the length conversion unit:
+
+- *Centimeters*
+
+- *Inches*
+
+- *Miles*
+
+- *Millimeters*
+
+*More can be found in the program*
 
 In the legacy folder, you can see the source code for the project. It is mainly for testing and experimental purposes only. You can find the main program with the name `unit_converter.py`.
