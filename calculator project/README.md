@@ -128,7 +128,9 @@ You can use the keys tied to the arithmetic symbols and the numpad and number ro
 
 Improved from the original `calculator_main_legacy.py`, the `calculator_main.py` program is GUI-based, which is more appealing and more easier to use than being terminal-based. This enhances the user experience by providing a visual and interactive experience rather than typing numbers and choosing manually in terminals or command prompts.
 
-The GUI of the program looks like this:
+<p align="center">
+  The GUI interface for the calculator looks like this:
+</p>
 
 <p align="center">
   <img src="assets/calculator_main.png"
