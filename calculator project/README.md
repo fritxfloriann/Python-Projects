@@ -147,7 +147,7 @@ The GUI of the program looks like this:
 
 The TEST folder is for testing purposes only. It contains files for calculations in each of the available mathematical options. The TEST folder lets users read and learn basic calculations and how arithmetic works in Python. It's a very basic terminal program for calculations instead of a simple GUI-based calculator.
 
-The `calculator_main_legacy.py` file is deprecated. It can still be used for basic calculations, but I recommend using the `calculator_main.py` file instead. It has many features to offer, has a GUI interface, much more effective error handling, and you can use the program without it exiting upon completing a calculation. As with the `TEST` folder, it is deprecated. You can still use them, but it would be a clunky experience. The test folder is usually for testing out individual mathematical operations for testing purposes only.
+The `calculator_main_legacy.py` file is deprecated. It can still be used for basic calculations, but I recommend using the `calculator_main.py` file instead. It has many features to offer, has a GUI interface, much more effective error handling, and you can use the program without it exiting upon completing a calculation. As with the `TEST` folder, it is deprecated. You can still use it, but it would be a clunky experience. The test folder is usually for testing out individual mathematical operations for testing purposes only.
 
 Since this repository is subject to the MIT licence, you can freely fork my repository, modify the code provided in the project folders, and tinker with the already implemented source code.
 
