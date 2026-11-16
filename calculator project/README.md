@@ -126,7 +126,7 @@ You can use the keys tied to the arithmetic symbols and the numpad and number ro
 
 ### GUI-Based
 
-Improved from the original `calculator_main_v1.py`, the `calculator_main.py` program is GUI-based, which is more appealing and more easier to use than being terminal-based. This enhances the user experience by providing a visual and interactive experience rather than typing numbers and choosing manually in terminals or command prompts.
+Improved from the original `calculator_main_legacy.py`, the `calculator_main.py` program is GUI-based, which is more appealing and more easier to use than being terminal-based. This enhances the user experience by providing a visual and interactive experience rather than typing numbers and choosing manually in terminals or command prompts.
 
 The GUI of the program looks like this:
 
@@ -147,7 +147,7 @@ The GUI of the program looks like this:
 
 The TEST folder is for testing purposes only. It contains files for calculations in each of the available mathematical options. The TEST folder lets users read and learn basic calculations and how arithmetic works in Python. It's a very basic terminal program for calculations instead of a simple GUI-based calculator.
 
-The `calculator_main_v1.py` file is deprecated. It can still be used for basic calculations, but I recommend using the `calculator_main.py` file instead. It has many features to offer, has a GUI interface, much more effective error handling, and you can use the program without it exiting upon completing a calculation. As with the `TEST` folder, it is deprecated. You can still use them, but it would be a clunky experience.
+The `calculator_main_legacy.py` file is deprecated. It can still be used for basic calculations, but I recommend using the `calculator_main.py` file instead. It has many features to offer, has a GUI interface, much more effective error handling, and you can use the program without it exiting upon completing a calculation. As with the `TEST` folder, it is deprecated. You can still use them, but it would be a clunky experience.
 
 Since this repository is subject to the MIT licence, you can freely fork my repository, modify the code provided in the project folders, and tinker with the already implemented source code.
 
