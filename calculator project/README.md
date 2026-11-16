@@ -4,6 +4,8 @@ This project contains a calculator program that calculates your input and provid
 
 You may notice a folder called `TEST`. It contains files for calculations for each operation. It is mainly for testing purposes only and for experimental purposes only as well. It is aimed at testing out arithmetic functions and mathematical operations in Python. It was originally used as a calculator for standalone operations. But with practicality issues and being severely limited to just basic calculations, the main calculator program aims to unify all operations together alongside understanding complex questions and calculations.
 
+The legacy folder contains the legacy version of the `calculator_main.py` program, which is terminal-based. It is the first version of `calculator_main.py`. It is located in the `LEGACY` folder under the name `calculator_main_legacy.py`. It is mainly for basic use today, as it doesn't have a GUI. For an updated program, it is much better to use the latest version of `calculator_main.py`, which is located in this folder.
+
 The full-fledged calculator program is now available! Available with a GUI, repeatable calculations, and multiple new features, it is the main program in this project. You can find it in the `calculator_main.py` file available in this folder. Thank you for the support and my sustained learning; I'm able to create a full program in Python. This will serve as my first program and will be continuously updated as time goes by.
 
 ## Instructions & Usage
