@@ -44,4 +44,24 @@ When prompted, enter the desired number of the unit you want to convert to. This
 
 You can always reset the program to convert a new number by removing the number values in the textbox or exiting the program. This will wipe the inputs you entered. After that, you can start your new conversion.
 
+## Features
+
+The unit converter has several features baked into its own program. Each of these features improves user experience, provides more operations, improves capability, and delivers quality performance.
+
+*This section refers to the `unit_converter.py` program*
+
+### Unit Conversion
+
+This program offers a couple of units for the user to convert to. There is a category of conversion units that you can pick from. This includes:
+
+- *Length*
+
+- *Mass*
+
+- *Volume*
+
+- *Temperature*
+
+Each conversion unit has its own measurement unit.
+
 In the legacy folder, you can see the source code for the project. It is mainly for testing and experimental purposes only. You can find the main program with the name `unit_converter.py`.
