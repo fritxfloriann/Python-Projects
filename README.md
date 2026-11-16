@@ -18,6 +18,10 @@ Each program will have its own README for the user as a mandatory requirement fo
 
 *More projects will come in the future.*
 
+# INSTALLATION NOTE
+
+Once you have cloned or installed this repository, you don't need to reinstall the repository again to access other programs. Once you download this entire repository, you will have access to all of the programs available during your time of installation. As the repository updates constantly, remember to also update your installation on the installed programs.
+
 # LEGACY FOLDERS
 
 The legacy folders contain the source material for the projects in `Python-Projects`. In these folders, you can find the original version of the projects and even the source code. The legacy folders focus on organizing legacy files alongside newer ones. This feature makes it convenient for users to navigate the actual program and the original snapshots.
