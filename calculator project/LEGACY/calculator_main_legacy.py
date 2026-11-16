@@ -1,6 +1,3 @@
-
-print("This file is discontinued. I recommend using the `calculator_main.py` file for a better experience.\n")
-
 def add(x, y):
     return x + y
 
@@ -16,6 +13,7 @@ def divide(x, y):
 def percentage(x, y):
     return (x / y) * 100
 
+print("This file is discontinued. I recommend using the `calculator_main.py` file for a better experience.\n")
 
 print("\nWelcome to calculator_main!\n")
 
