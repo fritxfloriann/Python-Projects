@@ -22,7 +22,7 @@ Each program will have its own README for the user as a mandatory requirement fo
 
 The legacy folders contain the source material for the projects in `Python-Projects`. In these folders, you can find the original version of the projects and even the source code. The legacy folders focus on organizing legacy files alongside newer ones. This feature makes it convenient for users to navigate the actual program and the original snapshots.
 
-As for using the contents inside the folder, I do not recommend doing so. The files in the legacy folders are there for archival, testing, and experimental purposes only. They also serve as the project's source material. While functions and user experience are basic, the legacy files in the legacy folder won't be updated. But it will be maintained if any issues arise. I will still recommend using the main program, which is typically located on the first page of the folder.
+As for using the contents inside the folder, I do not recommend doing so. The files in the legacy folders are there for archival, testing, and experimental purposes only. They also serve as the project's source material. While functions and user experience are basic, the legacy files in the legacy folder won't be updated. But they will be maintained if any issues arise. I will still recommend using the main program, which is typically located on the first page of the folder.
 
 # FREQUENTLY ASKED QUESTIONS (FAQ)
 
@@ -32,7 +32,7 @@ Below are the most frequently asked questions (FAQ) for this repository. This se
 
 The source materials for these projects are located in my pinned repository, `Basics in Python`, which contains guides, comments, and step-by-step improvements of my journey. This repository is aimed at separating my projects from my experimental and journal repository for regular users who want to access my projects. This repository will be a home for all of my dedicated programs, code, and projects.
 
-Following up the announcement of deprecation of the repository, `Basics-in-Python`, it will be rarely used as a main repository for projects and programs. This repository will be home to all of my projects, programs, and code. The repository will still be up, but it remains dormant for now. Even if the repository will not be used constantly as it used to, it still remains a foundation for my projects' source code and materials.
+Following up on the announcement of the discontinuation of the repository, `Basics-in-Python`, it will be rarely used as a main repository for projects and programs. This repository will be home to all of my projects, programs, and code. The repository will still be up, but it remains dormant for now. Even if the repository will not be used constantly as it used to, it still remains a foundation for my projects' source code and materials.
 
 ## Will there be projects with a different programming language?
 
@@ -44,13 +44,13 @@ Whether the project has other languages, it will still be committed here if it c
 
 The lack of comments in the code of the projects in this repository is primarily to strip off the unnecessary clutter for projects that are finished. The comments will remain in the `Basics in Python` folder, and comments will be removed from the code in this repository. Mainly to reduce the lines of code and to remove educational comments to reinforce the finished state of the projects.
 
-Having comments with code that is already meant to be understandable will be unnecessary. Adding comments can also add tons of lines of code and could inflate the file size. Which is why I want the code to contain minimal comments.
+Having comments in code that is already meant to be understandable will be unnecessary. Adding comments can also add tons of lines of code and could inflate the file size. Which is why I want the code to contain minimal comments.
 
 # Improvement Notice
 
 In this repository, the existing projects I made will be refined, given functions, interactive elements, refactoring, and innovation in some aspects of the projects. The purpose of the improvement notice is to provide information about the new changes in the projects in the repository. Code may change over time. Functionality, user input, and the quality of code can also change. This is how projects in this repository can be changed into something better.
 
-Even after finishing the basics of a project, they will still be maintained, improved, and have new features added when feasible and if my schedule allows.
+Even after finishing the basics of a project, it will still be maintained, improved, and have new features added when feasible and if my schedule allows.
 
 ## Will the old code containing comments and the original state remain?
 
