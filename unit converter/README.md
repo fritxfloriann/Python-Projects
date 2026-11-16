@@ -62,15 +62,23 @@ This program offers a couple of units for the user to convert to. There is a cat
 
 - *Temperature*
 
-Each conversion unit has its own measurement unit. Here are the measurement units for the length conversion unit:
+Each conversion unit has its own measurement unit. Here are some of the measurement units you can find in the category:
 
-- *Centimeters*
+- *Centimeter* — **Length**
 
-- *Inches*
+- *Inch* — **Length**
 
-- *Miles*
+- *Kilogram* — **Mass**
 
-- *Millimeters*
+- *Milligram* — **Mass**
+
+- *Liter* — **Volume**
+
+- *Tablespoon* — **Volume**
+
+- *Celsius* — **Temperature**
+
+- *Fahrenheit* — **Temperature**
 
 *More can be found in the program*
 
