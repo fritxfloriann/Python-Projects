@@ -84,6 +84,8 @@ Each conversion unit has its own measurement unit. Here are some of the measurem
 
 The user can pick between the categories and the measurement units to convert their numerical value. By putting their number in the text box and picking the correct conversion unit and measurement unit, they will get an accurate result of the converted value. The UI is designed to be simple and easy to use. Converting from imperial units to metric units is easy in `unit_converter.py`.
 
+There is also a button available in the program where you can swap the conversion of From and To. For example, if you want to swap between converting from mL to L, you can click the swap button on the right to swap to the L to mL conversion. This makes swapping measurement units simpler.
+
 ### User Input
 
 The program is mainly navigated using your cursor. Drop-down menus and selections are embedded into the interface, while the results are at the bottom of the interface. The program utilizes text boxes and drop-down menus for users to make their selections. The options they input will be used to convert their numerical inputs into a result.
@@ -91,5 +93,11 @@ The program is mainly navigated using your cursor. Drop-down menus and selection
 *By clicking on the categories of the conversion units listed, you pick between imperial and metric units to convert.*
 
 As simple as how simple mouse navigation is, keyboard input will be implemented in the future to make converting much more faster by letting the users type on their keyboard to choose instead of navigating and clicking on boxes. You can still use mouse navigation, as keyboard input is implemented alongside mouse input to support two inputs at once.
+
+### Error Handling
+
+The unit converter program also has error handling, built for invalid inputs for the numeric value, crashes, and user errors. Error handling in the unit converter program is designed to prevent the user from inputting invalid data or inputs to the program that could cause it to crash. Error handling is present when the user inputs an invalid numerical value.
+
+For example, entering letters or symbols in the numeric value text box can cause error handling to activate. By inputting invalid inputs like letters and symbols, the program will display an error, prompting the user to enter a valid number. You can resolve this error by deleting the input in the Value text box.
 
 In the legacy folder, you can see the source code for the project. It is mainly for testing and experimental purposes only. You can find the main program with the name `unit_converter.py`.
