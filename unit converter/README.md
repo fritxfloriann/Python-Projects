@@ -121,4 +121,6 @@ The unit converter program has a simple and minimalistic interface that only foc
   The GUI interface is subject to change over time.
 </p>
 
+## Legacy Files
+
 In the legacy folder, you can see the source code for the project. It is mainly for testing and experimental purposes only. You can find the main program with the name `unit_converter.py`.
