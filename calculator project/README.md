@@ -8,7 +8,7 @@ The legacy folder contains the legacy version of the `calculator_main.py` progra
 
 The full-fledged calculator program is now available! Available with a GUI, repeatable calculations, and multiple new features, it is the main program in this project. You can find it in the `calculator_main.py` file available in this folder. Thank you for the support and my sustained learning; I'm able to create a full program in Python. This will serve as my first program and will be continuously updated as time goes by.
 
-## Instructions & Usage
+## Installation
 
 To run the calculator, you must meet the requirements listed below.
 
@@ -46,7 +46,7 @@ The file name for the calculator program is called `calculator_main.py`. Remembe
 
 If you don't know how to use the program, the instructions below show you how to use the calculator. Remember, this is not a scientific calculator. It will only handle basic computing and calculations.
 
-## How to use the calculator
+## Instructions
 
 To use the calculator, you are greeted with a prompt that requires your input to function. 
 
