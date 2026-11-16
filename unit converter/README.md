@@ -82,6 +82,8 @@ Each conversion unit has its own measurement unit. Here are some of the measurem
 
 *More can be found in the program*
 
+The user can pick between the categories and the measurement units to convert their numerical value. By putting their number in the text box and picking the correct conversion unit and measurement unit, they will get an accurate result of the converted value. The UI is designed to be simple and easy to use. Converting from imperial units to metric units is easy in `unit_converter.py`.
+
 ### User Input
 
 The program is mainly navigated using your cursor. Drop-down menus and selections are embedded into the interface, while the results are at the bottom of the interface. The program utilizes text boxes and drop-down menus for users to make their selections. The options they input will be used to convert their numerical inputs into a result.
