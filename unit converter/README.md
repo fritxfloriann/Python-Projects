@@ -100,4 +100,10 @@ The unit converter program also has error handling, built for invalid inputs for
 
 For example, entering letters or symbols in the numeric value text box can cause error handling to activate. By inputting invalid inputs like letters and symbols, the program will display an error, prompting the user to enter a valid number. You can resolve this error by deleting the input in the Value text box.
 
+### GUI Interface
+
+The unit converter program has a simple and minimalistic interface that only focuses on conversion. It also features a swap button and a light gray color scheme. The interface is basic, but future updates will improve it through gradual implementations. The GUI upgrade from the original program to the modern program is impactful, as a GUI-based program is more interactive and readable than terminal-based programs.
+
+The GUI interface for the unit converter looks like this:
+
 In the legacy folder, you can see the source code for the project. It is mainly for testing and experimental purposes only. You can find the main program with the name `unit_converter.py`.
