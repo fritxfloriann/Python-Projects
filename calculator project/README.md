@@ -143,6 +143,12 @@ The GUI of the program looks like this:
   Remember, the interface may change over time as new features get continuously added.
 </p>
 
+## Calculator Main's Future Updates
+
+Future updates for `calculator_main.py` will include a calculation history, a square root button, a resizable window, and more capabilities coming soon. A scientific calculator project is set to be made. The `calculator_main` program will still be kept in the main folder and will not be moved to the `LEGACY` folder. The `calculator_main.py` file will be a basic calculator, while a new upcoming scientific calculator will be its very own separate program uploaded in this directory.
+
+*As updates get pushed out to the following programs, the core program will still be maintained, improved, and updated except for files in the `LEGACY` and `TEST` folders.*
+
 # Important Message
 
 The `TEST` folder is for testing purposes only. It contains files for calculations in each of the available mathematical options. The TEST folder lets users read and learn basic calculations and how arithmetic works in Python. It's a very basic terminal program for calculations instead of a simple GUI-based calculator. The `LEGACY` folder is used for preserving the original version of `calculator_main.py`. It stores legacy files from projects in favor of newer implementations.
