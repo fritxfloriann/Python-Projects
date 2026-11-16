@@ -15,7 +15,7 @@ def percentage(x, y):
 
 print("This file is discontinued. I recommend using the `calculator_main.py` file for a better experience.\n")
 
-print("\nWelcome to calculator_main!\n")
+print("Welcome to calculator_main!\n")
 
 print("Choose what mathematical operation you want to do. Pick between 1-5.\n")
 
