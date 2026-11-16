@@ -24,9 +24,9 @@ The legacy folders contain the source material for the projects in `Python-Proje
 
 As for using the contents inside the folder, I do not recommend doing so. The files in the legacy folders are there for archival, testing, and experimental purposes only. They also serve as the project's source material. While functions and user experience are basic, the legacy files in the legacy folder won't be updated. But it will be maintained if any issues arise. I will still recommend using the main program, which is typically located on the first page of the folder.
 
-# FREQUENTLY ASKED QUESTIONS
+# FREQUENTLY ASKED QUESTIONS (FAQ)
 
-Below are the most frequently asked questions for this repository. If you have any questions for me to answer, you can send me a message through my email.
+Below are the most frequently asked questions (FAQ) for this repository. This section will be expanded once there is enough documentation. If you have any questions for me to answer, you can send me a message through my email.
 
 ## Where is the source material for these projects?
 
