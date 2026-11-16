@@ -1,6 +1,6 @@
 # Age Verification
 
-This program is a simple, bare-bones version of an age verification system. Made with basic functions, inputs, and Python, it can be used to determine if the user meets the requirements for a certain action, qualification, or object based on their age group. You only need to enter your age once and the program will determine your age if it meets the requirements.
+This program is a simple, bare-bones version of an age verification system. Made with basic functions, inputs, and Python, it can be used to determine if the user meets the requirements for a certain action, qualification, or object based on their age group. You only need to enter your age once, and the program will determine whether your age meets the requirements. It eliminates the friction of entering your age repeatedly after each prompt.
 
 The program is built on basic Python code, and a GUI-based version will be developed soon. Due to the planned implementation of a new GUI-based application for age verification, the `age_verification_new.py` file will be retired and moved to the `LEGACY` folder.
 
