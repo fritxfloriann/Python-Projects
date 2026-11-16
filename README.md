@@ -6,6 +6,8 @@ This repository contains all the projects, mini-projects, and programs I've code
 
 Each program will have its own README for the user as a mandatory requirement for each file. The README would be in `.md` format with a ".README" at the end to label the file as a README. Remember to follow the instructions and the installation process of each program before installing and using the programs. All programs have the MIT license, which means you can freely modify my code. Each of the folders contains its own independent project. You can find the projects in this repository in their folder.
 
+---
+
 ### Current contents of the repository:
 
 `age verification`
@@ -15,6 +17,12 @@ Each program will have its own README for the user as a mandatory requirement fo
 `pc parts price calculator`
 
 `unit converter`
+
+---
+
+### UPDATES
+
+These are the current programs that are in progress in this repository. The list will be updated once there is a new program, a change, or a pull request has been merged. Stay up to date to make sure your installed programs are up to date.
 
 *More projects will come in the future.*
 
