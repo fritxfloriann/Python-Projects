@@ -60,7 +60,7 @@ For example, enter the first number you want to calculate. Then select an operat
 
 Secondly, once you're done, press the button with the equal symbol. This will now calculate the total of the calculations you have entered.
 
-After that, you will get the answer for your calculations. This is now your total. Congratulations, you have calculated your answer.
+After that, you will get the answer to your calculations. This is now your total. Congratulations, you have calculated your answer.
 
 *Remember, dividing by zero can result in a Math Error.*
 
