@@ -58,12 +58,6 @@ The lack of comments in the code of the projects in this repository is primarily
 
 Having comments in code that is already meant to be understandable will be unnecessary. Adding comments can also add tons of lines of code and could inflate the file size. Which is why I want the code to contain minimal comments.
 
-# Improvement Notice
-
-In this repository, the existing projects I made will be refined, given functions, interactive elements, refactoring, and innovation in some aspects of the projects. The purpose of the improvement notice is to provide information about the new changes in the projects in the repository. Code may change over time. Functionality, user input, and the quality of code can also change. This is how projects in this repository can be changed into something better.
-
-Even after finishing the basics of a project, it will still be maintained, improved, and have new features added when feasible and if my schedule allows.
-
 ## Will the old code containing comments and the original state remain?
 
 The old code will remain in the other repository. But I don't recommend using any of the original code in the `Basics In Python` repository for serious applications. It is mainly for educational purposes only and should only be run for testing purposes. Old code can also be vulnerable and clunky, which is why I recommend getting files from this repository.
@@ -75,3 +69,9 @@ This is not just for security reasons, but for functionality and practicality fo
 Yes. This repository will be the main hub for my major projects with Python and any other files containing different coding languages that include Python. The `Basics-In-Python` repository will mainly be a repository dedicated to me explaining each part and element in Python. This repository showcases my programs, how to install them, and how YOU can download them and use them for your programs, projects, and smaller works.
 
 This is because this repository houses working programs that actually get the program not just to the developers, but to the users. 
+
+# Improvement Notice
+
+In this repository, the existing projects I made will be refined, given functions, interactive elements, refactoring, and innovation in some aspects of the projects. The purpose of the improvement notice is to provide information about the new changes in the projects in the repository. Code may change over time. Functionality, user input, and the quality of code can also change. This is how projects in this repository can be changed into something better.
+
+Even after finishing the basics of a project, it will still be maintained, improved, and have new features added when feasible and if my schedule allows.
