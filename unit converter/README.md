@@ -20,7 +20,17 @@ You can also download the project as a ZIP file and extract it to your preferred
 
 `cd unit converter`
 
-**Third, execute the program.**
+**Third, install the dependencies and wrappers for `unit_converter.py`.
+
+The following files are required to be downloaded for the unit converter program to work:
+
+`cli.py`
+
+`converter.py`
+
+`unit_converter.py`
+
+**Fourth, execute the program.**
 
 Enter the command:
 
