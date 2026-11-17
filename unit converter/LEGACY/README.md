@@ -1,6 +1,6 @@
 ## LEGACY FOLDER
 
-This is the legacy folder for `converter.py`.
+This is the legacy folder for `unit converter`
 
 **This is a message for all LEGACY folders present in Basics-In-Python**
 
