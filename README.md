@@ -56,7 +56,7 @@ Whether the project has other languages, it will still be committed here if it c
 
 The lack of comments in the code of the projects in this repository is primarily to strip off the unnecessary clutter for projects that are finished. The comments will remain in the `Basics in Python` folder, and comments will be removed from the code in this repository. Mainly to reduce the lines of code and to remove educational comments to reinforce the finished state of the projects.
 
-Having comments in code that is already meant to be understandable will be unnecessary. Adding comments can also add tons of lines of code and could inflate the file size. Which is why I want the code to contain minimal comments.
+Having comments in code that is already meant to be understandable will be unnecessary. Adding comments can also add tons of lines of code and could inflate the file size, which is why I want the code to contain minimal comments.
 
 ### Will the old code containing comments and the original state remain?
 
