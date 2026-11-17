@@ -1,3 +1,5 @@
+# This file is required for cli.py and unit_converter.py to work.
+
 """Core conversion logic for the unit converter.
 
 Supports four categories: length, mass, volume, and temperature.
