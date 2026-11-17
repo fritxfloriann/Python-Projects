@@ -2,6 +2,10 @@
 
 The Unit Converter program focuses on converting units to a desired unit. For example, converting feet to centimeters. It converts imperial and metric units based on what the user inputs. The main program is GUI-based, and you can switch units and convert as many as you want. The interface of the program enhances the user experience by its simplicity and reusability. Instead of calculating the units manually, the program handles conversion through its code.
 
+Below are the installation guide, instructions, list of features, information about the project, and copyright.
+
+**NOTE: The following guides, instructions, features, and information refer to the `unit_converter.py` program. If you refer to the `cli.py` program, go to the `cli.py` folder for more information.**
+
 ## Installation
 
 To install the unit converter, you must meet the requirements below to run the program:
@@ -30,13 +34,13 @@ The following files are required to be downloaded for the unit converter program
 
 *The `converter.py` file is a dependency for the unit converter program.*
 
-*Both `cli.py` and `unit_converter.py` are different for the unit converter program. They don't work the same.*
+*Both `cli.py` and `unit_converter.py` are different wrappers for the unit converter program. They don't work the same.*
 
 Depending on what interface you want to use, the `cli.py` offers a terminal-based interface as a terminal-based program for converting units and measurement units.
 
 The `unit_converter.py` has a GUI-based interface with interactive UI elements. It is a GUI wrapper for the unit converter program.
 
-*Reminder: The `cli.py` program has its dedicated instructions and is dependency-free, whilst the main unit converter program requires `converter.py` to work.*
+*Reminder: The `cli.py` program has its dedicated instructions, and it still requires `converter.py`, which works the same way as the main unit converter program, requiring `converter.py` to work.*
 
 *If you want the instructions for `cli.py`, it will have its own folder with its own instructions and functions.*
 
@@ -47,6 +51,8 @@ Enter the command:
 `python unit_converter.py`
 
 It should launch the program. You will be greeted with the UI. Once installation is done, you can start using the program right away.
+
+For instructions and an installation guide on installing and using `cli.py`, it is available in the `cli.py` folder with all of the list of commands, installation guide, and step-by-step instructions on how to use it.
 
 ## Instructions
 
