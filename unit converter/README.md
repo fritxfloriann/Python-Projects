@@ -2,8 +2,6 @@
 
 The Unit Converter program focuses on converting units to a desired unit. For example, converting feet to centimeters. It converts imperial and metric units based on what the user inputs. The main program is GUI-based, and you can switch units and convert as many as you want. The interface of the program enhances the user experience by its simplicity and reusability. Instead of calculating the units manually, the program handles conversion through its code.
 
-In the `LEGACY` folder, you can see the legacy version of the unit converter program. This is the first version of the unit converter, firstly terminal-based only. While it was reliable, the interface of the program was still stuck on terminals and command prompts. Eventually, a GUI-based unit converter program was made to modernize its capabilities and features. The legacy version of the unit converter is now only for testing and experimental purposes only as the new GUI-based program of the unit converter succeeds in many ways.
-
 ## Installation
 
 To install the unit converter, you must meet the requirements below to run the program:
@@ -94,7 +92,7 @@ Each conversion unit has its own measurement unit. Here are some of the measurem
 
 The user can pick between the categories and the measurement units to convert their numerical value. By putting their number in the text box and picking the correct conversion unit and measurement unit, they will get an accurate result of the converted value. The UI is designed to be simple and easy to use. Converting from imperial units to metric units is easy in `unit_converter.py`.
 
-There is also a button available in the program where you can swap the conversion of From and To. For example, if you want to swap between converting from mL to L, you can click the swap button on the right to swap to the L to mL conversion. This makes swapping measurement units simpler.
+There is also a button available in the program where you can swap the conversion of From and To. For example, if you want to swap between converting from mL to L, you can click the swap button on the right to swap to the L-to-mL conversion. This makes swapping measurement units simpler.
 
 ### User Input
 
@@ -112,7 +110,7 @@ For example, entering letters or symbols in the numeric value text box can cause
 
 ### GUI Interface
 
-The unit converter program has a simple and minimalistic interface that only focuses on conversion. It also features a swap button and a light gray color scheme. The interface is basic, but future updates will improve it through gradual implementations. The GUI upgrade from the original program to the modern program is impactful, as a GUI-based program is more interactive and readable than terminal-based programs.
+The unit converter program has a simple and minimalistic interface that only focuses on conversion. It also features a swap button and a light gray color scheme. The interface is basic, but future updates will improve it through gradual implementations. The GUI upgrade from the original program to the modern program is impactful, as a GUI-based program is more interactive and readable than a terminal-based program.
 
 <p align="center">
   The GUI interface for the unit converter looks like this:
@@ -133,4 +131,4 @@ The unit converter program has a simple and minimalistic interface that only foc
 
 ## Legacy Files
 
-In the legacy folder, you can see the source code for the project. It is mainly for testing and experimental purposes only. You can find the main program with the name `unit_converter.py`.
+In the legacy folder, legacy files are stored and preserved.
