@@ -38,7 +38,7 @@ As for using the contents inside the folder, I do not recommend doing so. The fi
 
 # FREQUENTLY ASKED QUESTIONS (FAQ)
 
-Below are the most frequently asked questions (FAQ) for this repository. This section will be expanded once there is enough documentation. If you have any questions for me to answer, you can send me a message through my email.
+Below are the most frequently asked questions (FAQ) for this repository. This section will be expanded once there are a couple of discussions. Most FAQs give a solution to a common issue that you could encounter while installing files in the repository. If you have any questions for me to answer, you can send me a message through my email.
 
 ### Where is the source material for these projects?
 
