@@ -26,7 +26,7 @@ These are the current programs that are in progress in this repository. The list
 
 *More projects will come in the future.*
 
-# INSTALLATION NOTE
+### INSTALLATION NOTE
 
 Once you have cloned or installed this repository, you don't need to reinstall the repository again to access other programs. Once you download this entire repository, you will have access to all of the programs available during your time of installation. As the repository updates constantly, remember to also update your installation on the installed programs.
 
