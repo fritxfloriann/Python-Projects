@@ -1,3 +1,5 @@
+# This file is required for cli.py and unit_converter.py to work.
+
 """Command-line interface for the unit converter.
 
 Usage:
