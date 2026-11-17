@@ -12,17 +12,17 @@ To install the unit converter, you must meet the requirements below to run the p
 
 Python 3.10 or newer, Git (optional), and any modern operating system.
 
-First, install the program by cloning the repository with Git.
+### First, install the program by cloning the repository with Git.
 
 `git clone https://github.com/fritxfloriann/unit_converter.py`
 
 You can also download the project as a ZIP file and extract it to your preferred folder.
 
-Second, open the unit converter folder.
+### Second, open the unit converter folder.
 
 `cd unit converter`
 
-Third, install the dependencies and wrappers for unit_converter.py.
+### Third, install the dependencies and wrappers for unit_converter.py.
 
 The following files are required to be downloaded for the unit converter program to work:
 
@@ -44,7 +44,7 @@ The `unit_converter.py` has a GUI-based interface with interactive UI elements. 
 
 *If you want the instructions for `cli.py`, it will have its own folder with its own instructions and functions.*
 
-Fourth, execute the program.
+### Fourth, execute the program.
 
 Enter the command:
 
