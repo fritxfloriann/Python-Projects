@@ -97,7 +97,7 @@ It should look something like this:
 
 There you have it! You have the total price of the entire PC Build. And of course, this does not account for other important parts like thermal paste, accessories, etc. But for a basic program for calculating the costs of a PC Build, this is more than enough.
 
-The latest commit (October 19, 2026) introduced a component model prompt, which gives the final price breakdown the exact model of what the component is.
+The latest commit (November 18, 2026) replaced the text example with an image example.
 
 ## IMPORTANT!!
 
