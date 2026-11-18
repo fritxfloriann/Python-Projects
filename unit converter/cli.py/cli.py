@@ -48,3 +48,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+# This program is terminal-based. Check for commands and the instructions on the README.
