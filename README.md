@@ -8,7 +8,7 @@ Each program will have its own README for the user as a mandatory requirement fo
 
 ---
 
-### Current contents of the repository:
+### CURRENT PROJECTS IN THE REPOSITORY:
 
 `age verification`
 
@@ -70,13 +70,13 @@ Yes. This repository will be the main hub for my major projects with Python and 
 
 This is because this repository houses working programs that actually get the program not just to the developers, but to the users. 
 
-# Improvement Notice
+# IMPROVEMENT NOTICE
 
 In this repository, the existing projects I made will be refined, given functions, interactive elements, refactoring, and innovation in some aspects of the projects. The purpose of the improvement notice is to provide information about the new changes in the projects in the repository. Code may change over time. Functionality, user input, and the quality of code can also change. This is how projects in this repository can be changed into something better.
 
 Even after finishing the basics of a project, it will still be maintained, improved, and have new features added when feasible and if my schedule allows.
 
-# Copyright Information
+# COPYRIGHT INFORMATION
 
 MIT LICENSE
 
