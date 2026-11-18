@@ -80,51 +80,7 @@ Once you are done entering the prices of all eight components, hitting Enter wil
 
 It should look something like this:
 
----
-
-PC Build Price Breakdown
-
-Component
-  Model
-  Price
-
-CPU
-Model
-$199.00
-
-GPU
-Model
-$150.00
-
-Motherboard
-Model
-$ 99.00
-
-RAM
-Model
-$ 99.00
-
-Storage
-Model
-$199.00
-
-Case
-Model
-$299.00
-
-Cooling
-Model
-$ 55.00
-PSU
-Model
-$ 23.00
-
-
-Total
-$1123.00
-
-
----
+[PLACEHOLDER]
 
 *The prices shown in the example are just a hypothetical build.*
 
