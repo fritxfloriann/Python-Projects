@@ -80,7 +80,18 @@ Once you are done entering the prices of all eight components, hitting Enter wil
 
 It should look something like this:
 
-[PLACEHOLDER]
+<p align="center">
+  This is the result after entering your model and prices:
+</p>
+
+<p align="center">
+  <img src="assets/results.png"
+       alt="pc parts price calculator"
+       width="50%">
+
+<p align="center">
+<sub> interactive_pc_price_calculator.py </sub>
+</p>
 
 *The prices shown in the example are just a hypothetical build.*
 
