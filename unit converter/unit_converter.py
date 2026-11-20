@@ -1,9 +1,3 @@
-"""Tkinter GUI for the unit converter.
-
-Run with:
-    python gui.py
-"""
-
 import tkinter as tk
 from tkinter import ttk
 
