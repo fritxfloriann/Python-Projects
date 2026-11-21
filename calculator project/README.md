@@ -133,7 +133,7 @@ Improved from the original `calculator_main_legacy.py`, the `calculator_main.py`
 </p>
 
 <p align="center">
-  <img src="assets/calculator_main.png"
+  <img src="assets/calculator_program.png"
        alt="calculator_main"
        width="25%">
 
