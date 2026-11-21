@@ -6,4 +6,4 @@ The `cli.py` is a terminal-based wrapper for the unit converter program that can
 
 # INSTALLATION
 
-To install `cli.py`, follow the steps below.
+To install `cli.py`, you need `cli.py` and `converter.py` installed. For the installation guide, follow the steps below.
