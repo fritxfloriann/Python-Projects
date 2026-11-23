@@ -16,4 +16,4 @@ Install the repository by cloning it with Git or install it as a ZIP folder.
 
 After installation, both `cli.py` and `unit_converter.py` require `cliconverter.py` for `cli.py` and `mainconverter.py` for `unit_converter.py` to be in the same folder. For your convenience, each wrapper comes bundled with the dependency in its folder. Reminder: the dependency is named differently for each wrapper. For example, `cliconverter.py` is for `cli.py`, and `mainconverter.py` is for `unit_converter.py`
 
-Upon installation, run `cli.py` with Python 3 or Python, depending on your system. It will shortly launch a terminal and the program is ready.
+Upon installation, run `cli.py` with Python 3 or Python, depending on your system. It will shortly launch a terminal, and the program is ready.
