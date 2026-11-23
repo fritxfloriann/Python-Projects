@@ -10,7 +10,7 @@ You can find the main program in the main folder of the `calculator project` nam
 
 This folder contains all the basic operations present in a basic calculator. These include: addition, subtraction, division, multiplication, and percentage. The percentage operation is designed as a dedicated calculation to simplify the process of calculating the percentage of a number.
 
-All operations will be integrated into `calculator_main.py`, coming soon.
+All operations are integrated into `main_calculator.py`.
 
 # IMPORTANT
 
