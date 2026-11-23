@@ -8,6 +8,14 @@ The legacy folder contains the legacy version of the `main_calculator.py` progra
 
 The full-fledged calculator program is now available! Available with a GUI, repeatable calculations, and multiple new features, it is the main program in this project. You can find it in the `calculator_main.py` file available in this folder. Thank you for the support and my sustained learning; I'm able to create a full program in Python. This will serve as my first program and will be continuously updated as time goes by.
 
+## Improvements Regarding Main_Calculator
+
+In the 23rd of November 2026, a new refresh of `calculator_main.py` was introduced. `main_calculator.py` aims to solve bugs, issues, and quirks that are present in the `calculator_main.py` program. This includes preventing floating-point inaccuracies such as `0.1` + `0.2`, which produces `0.30000000000000004`, improving the `remove_zero_decimal()` function, and ensuring decimal results are displayed cleanly without unnecessary trailing zeros.
+
+The update also implemented missing core features not present in the old version. This includes repeating the equals functionality, similar to the iOS calculator app. The new version also allows to display long numbers and results without going off screen. The arithmetic behavior has also been improved alongside development. Which includes allowing users to continue calculating from previous calculations, handle division by zero safely, handle negative numbers and decimals values correctly, and still supports core mathematical operatons like addition, substraction, multiplication, division, and percentages.
+
+This new version also aims to improve error handling, code quality, and preserving core features and functions during development. With the improvements of the calculator app, the legacy `calculator_main.py` will be moved to the `LEGACY` folder. While you can still use it, the main program will be `main_calculator.py`. The bugs, issues, and quirks will still remain in the legacy version, but will still be maintained and preserved regardless of the improvements the new program provided.
+
 ## Installation
 
 To run the calculator, you must meet the requirements listed below.
