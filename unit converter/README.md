@@ -26,21 +26,23 @@ You can also download the project as a ZIP file and extract it to your preferred
 
 The following files are required to be downloaded for the unit converter program to work:
 
-`cli.py` **(OPTIONAL)**
+`cli.py` **(TERMINAL PROGRAM)**
 
-`converter.py` **(REQUIRED)**
+`cliconverter.py` **(REQUIRED FOR CLI.PY)**
+
+`mainconverter.py` **(REQUIRED)**
 
 `unit_converter.py` **(MAIN PROGRAM)**
 
-*The `converter.py` file is a dependency for the unit converter program.*
+*The `mainconverter.py` file is a dependency for the unit converter program.*
 
 *Both `cli.py` and `unit_converter.py` are different wrappers for the unit converter program. They don't work the same.*
 
-Depending on what interface you want to use, the `cli.py` offers a terminal-based interface as a terminal-based program for converting units and measurement units.
+Depending on what interface you want to use, `cli.py` offers a terminal-based interface as a terminal-based program for converting units and measurement units.
 
 The `unit_converter.py` has a GUI-based interface with interactive UI elements. It is a GUI wrapper for the unit converter program.
 
-*Reminder: The `cli.py` program has its dedicated instructions, and it still requires `converter.py`, which works the same way as the main unit converter program, requiring `converter.py` to work.*
+*Reminder: The `cli.py` program has its dedicated instructions, and it still requires `cliconverter.py`, which works the same way as the main unit converter program, requiring `mainconverter.py` to work.*
 
 *If you want the instructions for `cli.py`, it will have its own folder with its own instructions and functions.*
 
