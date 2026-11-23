@@ -141,7 +141,7 @@ Improved from the original `calculator_main_legacy.py` and `main_calculator_lega
 </p>
 
 <p align="center">
-  <img src="assets/calculator_program.png"
+  <img src="assets/main_calculator.png"
        alt="calculator_main"
        width="25%">
 
