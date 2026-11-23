@@ -8,4 +8,6 @@ The `cli.py` is a terminal-based wrapper for the unit converter program that can
 
 To install `cli.py`, you need `cli.py` and `converter.py` installed. For the installation guide, follow the steps below.
 
-Why download `converter.py`? This file is a dependency used by `cli.py` and `unit_converter.py`. It is required to be installed. While you can install both programs independently, it won't work because it needs the `converter.py` dependency.
+Why download `converter.py`? This file is a dependency used by `cli.py` and `unit_converter.py`. It is required to be installed. While you can install both programs independently, it won't work because it needs the `converter.py` dependency. `cli.py` and `unit_converter.py` are wrappers for the program.
+
+
