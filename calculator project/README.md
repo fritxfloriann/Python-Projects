@@ -155,7 +155,7 @@ Improved from the original `calculator_main_legacy.py` and `main_calculator_lega
   Remember, the interface may change over time as new features get continuously added.
 </p>
 
-## Calculator Main's Future Updates
+## Main Calculator's Future Updates
 
 Future updates for `main_calculator.py` will include a calculation history, a square root button, a resizable window, and more capabilities coming soon. A scientific calculator project is set to be made. The `calculator_main.py` program will be kept in the `LEGACY` folder. The `calculator_main.py` file will be a basic calculator, while a new upcoming scientific calculator will be its very own separate program uploaded in this directory.
 
