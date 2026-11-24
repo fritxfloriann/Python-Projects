@@ -16,6 +16,8 @@ The update also implemented missing core features not present in the old version
 
 This new version also aims to improve error handling, code quality, and preserving core features and functions during development. With the improvements of the calculator app, the legacy `calculator_main.py` will be moved to the `LEGACY` folder. While you can still use it, the main program will be `main_calculator.py`. The bugs, issues, and quirks will still remain in the legacy version, but will still be maintained and preserved regardless of the improvements the new program provided.
 
+*A revised calculator program will be implemented soon.*
+
 ## Installation
 
 To run the calculator, you must meet the requirements listed below.
