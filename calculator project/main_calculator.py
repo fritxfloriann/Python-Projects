@@ -1,14 +1,3 @@
-"""Calculator Main - an iPhone-style calculator built with Tkinter.
-
-Run it with:  python calculator.py
-
-The file has two halves:
-
-1. Calculator    - the calculator's brain. Plain Python, no tkinter, so it can be
-                   tested on its own.
-2. CalculatorApp - the tkinter window. It draws the calculator and passes every
-                   button press (mouse or keyboard) to Calculator.
-"""
 
 import tkinter
 import tkinter.font
