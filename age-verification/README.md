@@ -8,7 +8,7 @@ In the new program of the age verification program, you only need to put your ag
 
 This project is for educational purposes only. It is only used at a basic level, and it should never be integrated into more sophisticated systems.
 
-A new implementation of `age-verification` will introduce a new interface using Tkinter. It is planned for late November to early December.
+A new implementation of `age-verification` will introduce a new interface using Tkinter. It is planned for late November to early December. Progress is underway.
 
 ## Installation
 
