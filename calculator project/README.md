@@ -14,7 +14,7 @@ In the 23rd of November 2026, a new refresh of `calculator_main.py` was introduc
 
 The update also implemented missing core features not present in the old version. This includes repeating the equals functionality, similar to the iOS calculator app. The new version also allows to display long numbers and results without going off screen. The arithmetic behavior has also been improved alongside development. This includes allowing users to continue calculating from previous calculations, handling division by zero safely, handling negative numbers and decimal values correctly, and still supporting core mathematical operations like addition, subtraction, multiplication, division, and percentages.
 
-This new version also aims to improve error handling, code quality, and preserve core features and functions during development. With the improvements of the calculator app, the legacy `calculator_main.py` will be moved to the `LEGACY` folder. While you can still use it, the main program will be `main_calculator.py`. The bugs, issues, and quirks will still remain in the legacy version, but will still be maintained and preserved regardless of the improvements the new program provides.
+This new version also aims to improve error handling, code quality, and preserve core features and functions during development. With the improvements to the calculator app, the legacy `calculator_main.py` will be moved to the `LEGACY` folder. While you can still use it, the main program will be `main_calculator.py`. The bugs, issues, and quirks will still remain in the legacy version, but will still be maintained and preserved regardless of the improvements the new program provides.
 
 *The calculator program is complete.*
 
